@@ -5,7 +5,7 @@
       <p class="intro-p">Hello, je suis</p>
       <h1>Sylvain Sainte Romane</h1>
         <h2>Développeur Web</h2>
-        <p>
+        <p class="intro-txt">
           Fraîchement sorti d'une reconversion professionnelle, <br>étant passioné en informatique.
           J'ai soif d'apprendre et aime résoudre des problèmes.
         </p>    

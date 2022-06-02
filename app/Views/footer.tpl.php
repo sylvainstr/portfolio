@@ -11,6 +11,7 @@
   <!-- JS -->
   <script src="<?= $absoluteUrl ?>assets/js/app.js"></script>
   <script src="<?= $absoluteUrl ?>assets/js/active-scroll.js"></script>
+  <script src="<?= $absoluteUrl ?>assets/js/animation.js"></script>
 
   </body>
 </html>
