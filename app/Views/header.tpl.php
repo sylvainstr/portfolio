@@ -22,7 +22,7 @@
       <div class="main-nav">
         <ul>
           <li class="nav-item">
-            <a class="nav-linked active" aria-current="page" href="#introduction">accueil</a>
+            <a class="nav-linked active" aria-current="page" href="<?php $absoluteUrl ?>">accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-linked" aria-current="page" href="#skills">compétences</a>
