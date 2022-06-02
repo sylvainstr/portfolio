@@ -1,1 +1,28 @@
-<h1>hello le monde</h1>
+
+<div class="wrapper">  
+  <section class="intro" id="introduction">
+    <div class="introduction">
+      <p class="intro-p">Hello, je suis</p>
+      <h1>Sylvain Sainte Romane</h1>
+        <h2>Développeur Web</h2>
+        <p>
+          Fraîchement sorti d'une reconversion professionnelle, <br>étant passioné en informatique.
+          J'ai soif d'apprendre et aime résoudre des problèmes.
+        </p>    
+    </div>  
+
+    <div class="intro-img">
+      <img src="<?= $absoluteUrl ?>assets/images/intro.jpg" alt="image d'une personne sur un ordinateur">
+    </div>
+  </section>
+
+<?php
+
+require __DIR__ . '/skills.tpl.php';
+require __DIR__ . '/experience.tpl.php';
+require __DIR__ . '/formations.tpl.php';
+require __DIR__ . '/project.tpl.php';
+require __DIR__ . '/presentation.tpl.php';
+require __DIR__ . '/contact.tpl.php';
+
+?>

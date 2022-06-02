@@ -1,0 +1,367 @@
+*, ::before, ::after {
+  box-sizing: border-box; 
+  padding: 0; 
+  margin: 0;
+}
+
+body {
+  font-family: 'Nunito', 'Biryani', sans-serif;
+  background-color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+}
+
+.wrapper {
+  min-height: 88vh;
+  max-width: 1596px;
+  margin: auto;
+}
+
+/* Header */
+
+header {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 10;
+  width: 100%;  
+  min-height: 82px;  
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 5px rgba(51, 40, 0, 0.15);
+}
+
+nav {
+  display: block;
+  height: 100%;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82px;
+  margin-bottom: 0.1rem;
+}
+
+.nav-item {
+  color: #332800;
+  font-size: 14px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0 1rem;
+  border-radius: 1px;
+  padding: 10px 30px;
+}
+
+.active {
+  border-bottom: #FFCE1F solid 3px;
+  padding-bottom: 10px;
+  padding-inline: 5px;
+}
+
+#contact-button {
+  background-color: #FFCE1F;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+a.nav-linked {
+  color: #332800;
+  text-decoration: none;
+}
+
+/* Introduction */
+
+section.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction .intro-p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 46px;
+  color: #332800;
+}
+
+.introduction h1 {
+  color: #FFCE1F;
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 124px;
+}
+
+.introduction h2 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 71px;
+  color: #332800;
+}
+
+.introduction p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 155%;
+  color: #5F5C4E;
+  width: 626px;
+}
+
+.intro-img img{
+  width: 640px;
+}
+
+/* Skills */
+
+section.skills {
+  padding-left: 100px;
+  padding-top: 8rem;
+}
+
+.group-card {
+  display: flex;
+}
+
+section.skills h1,
+section.formations h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 49px;
+  color: #332800;
+}
+
+.line {
+  border-bottom: #FFCE1F solid 4px;
+  width: 203px;
+}
+
+.skill-card-first,
+.skill-card-second,
+.skill-card-third {
+  margin-top: 4rem;
+  width: 465px;
+  height: 545px;
+  background: #FFFFFF;
+  border: 2px solid #D1D0D0;
+}
+
+.skill-card-first {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.skill-card-second {
+  border-radius: 0px;
+}
+
+.skill-card-third {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.active-card {
+  background-color: #FFCE1F;
+  border: none;
+}
+
+.skill-card-inside {
+  padding-left: 4rem;
+}
+
+.skills .skill-card-first h1,
+.skills .skill-card-second h1,
+.skills .skill-card-third h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 113px;
+  color: #332800;
+  padding-top: 50px;
+}
+
+.skills .skill-card-first h2,
+.skills .skill-card-second h2,
+.skills .skill-card-third h2 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  color: #332800;
+  padding-bottom: 2rem;
+}
+
+.skills .skill-card-first li,
+.skills .skill-card-second li,
+.skills .skill-card-third li {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #332800;
+  list-style: square;
+  list-style-position: inside;
+  padding-bottom: 20px;
+}
+
+/* Expérience professionnelle */
+
+section.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+section.experience h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 49px;
+  color: #332800;
+}
+
+.title-experience {
+  padding-bottom: 5rem;
+}
+
+.title-experience .line {
+  margin: auto;
+}
+
+.xp-group {
+  display: flex;
+}
+
+.left {
+  width: 100%;
+  border-right: 2px solid #332800 ;
+}
+
+.left .xp-first {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.left .xp-first h2 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  color: #FFCE1F;
+}
+
+.left .xp-first h3 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #5F5C4E;
+}
+
+.left .xp-first p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5F5C4E;
+  padding-bottom: 15px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.left .xp-first a {
+  text-decoration: none;
+  color: #5F5C4E;
+  font-weight: 700;
+}
+
+.left .xp-first a:hover{
+  color: #FFCE1F;
+}
+
+.right .xp-first,
+.left .xp-second {
+  display: flex;
+}
+
+.right .xp-first .dashed {
+  border-bottom: 2px dashed #332800;
+  width: 400px;
+  transform: translateY(100px);
+}
+
+.right .xp-first h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39px;
+  text-align: center;
+  color: #332800;
+  background: #FFCE1F;
+  border-radius: 5px;
+  padding: 20px 30px;
+  transform: translateY(140px);
+  margin-right: 10rem;
+}
+
+.left .xp-second h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39px;
+  text-align: center;
+  color: #332800;
+  background: #FFCE1F;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+
+.left .xp-second .dashed {
+  border-bottom: 2px dashed #332800;
+  width: 400px;
+}
+
+
+/* Diplômes et formations */
+
+section.formations {
+  padding-left: 100px;
+  padding-top: 8rem;
+}
+
+/* Footer */
+
+.foot img {
+  width: 100%;
+}
