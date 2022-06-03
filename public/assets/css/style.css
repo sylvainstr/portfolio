@@ -180,7 +180,7 @@ section.formations h1 {
 
 .active-card {
   background-color: #FFCE1F;
-  border: none;
+  border: 2px solid #FFCE1F;
 }
 
 .skill-card-inside {
@@ -380,9 +380,80 @@ section.experience h1 {
 
 /* Diplômes et formations */
 
-section.formations {
-  padding-left: 100px;
+section.formation {
   padding-top: 8rem;
+}
+
+section.formation .formation-title,
+section.formation .line {
+  margin-left: 100px;
+}
+
+.formation h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 49px;
+  color: #332800;
+}
+
+.formation-group {
+  display: flex;
+  padding-top: 4rem;
+}
+
+.formation-group .formation-card-first h1,
+.formation-group .formation-card-second h1,
+.formation-group .formation-card-third h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39px;
+  color: #332800;
+}
+
+.formation-group .formation-card-first h2,
+.formation-group .formation-card-second h2,
+.formation-group .formation-card-third h2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5F5C4E;
+}
+
+.formation-group .formation-card-first p,
+.formation-group .formation-card-second p,
+.formation-group .formation-card-third p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5F5C4E;
+}
+
+.formation-card-first,
+.formation-card-second,
+.formation-card-third {
+  width: 431px;
+  background: #FFFFFF;
+  border: 0.5px solid #D1D0D0;
+  box-shadow: 2px 4px 4px rgba(51, 40, 0, 0.15);
+  border-radius: 10px;
+  padding: 50px 0 50px 30px;
+}
+
+.formation-dashed {
+  border-bottom: 2px dashed #332800;
+  width: 150px;
+  transform: translateY(-120px);
+}
+
+.formation-card-third .formation-img img {
 }
 
 /* Footer */

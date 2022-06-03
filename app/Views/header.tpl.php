@@ -13,6 +13,13 @@
    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;700;900&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+     <!-- JS -->
+  <script src="<?= $absoluteUrl ?>assets/js/app.js" defer='true'></script>
+  <script src="<?= $absoluteUrl ?>assets/js/active-scroll.js" defer='true'></script>
+  <script src="<?= $absoluteUrl ?>assets/js/animation.js" defer='true'></script>
+  <script src="<?= $absoluteUrl ?>assets/js/skill-card.js" defer='true'></script>
 
   <title>Portfolio</title>
 </head>

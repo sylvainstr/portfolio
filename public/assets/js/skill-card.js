@@ -4,8 +4,8 @@ const cardSecond = document.querySelector('.skill-card-second');
 const cardThird = document.querySelector('.skill-card-third');
 
 allCards.forEach(card => {
-  card.addEventListener("mouseover", addActiveCard);
-  card.addEventListener("mouseout", removeActiveCard);
+  card.addEventListener("mouseenter", addActiveCard);
+  card.addEventListener("mouseleave", removeActiveCard);
 })
 
 
