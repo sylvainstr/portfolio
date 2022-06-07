@@ -9,7 +9,7 @@
         <h3><a href="https://www.security-response.fr/" target="_blank">Voir le site</a></h3>
       </div>
 
-      <div class="my-projects-text scroller-right">
+      <div class="my-projects-text-security scroller-right">
         <h1>Security Response</h1>
         <ul>
           <li>Projet réalisé en fin de formation (4 semaines). <br>Mise en situation professionnelle, travail en équipe, 4 développeurs.</li>
@@ -28,7 +28,7 @@
 
     <div class="my-projects">
       
-      <div class="my-projects-text scroller-left">
+      <div class="my-projects-text-ocoeur scroller-left">
         <div class="text-ltr">
           <h1>Ocoeur2soi</h1>
           <ul>

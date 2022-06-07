@@ -16,11 +16,6 @@ const formation1 = document.querySelector('.formation-card-first');
 const formation2 = document.querySelector('.formation-card-second');
 const formation3 = document.querySelector('.formation-card-third');
 
-const projetImg1 = document.querySelector('.my-projects-img-security');
-const projetTxt1 = document.querySelector('.my-projects-text');
-const projetTxt2 = document.querySelector('.my-projects-text');
-const projetImg2 = document.querySelector('.my-projects-img-ocoeur');
-
 const TimeLine = new TimelineMax({paused: true});
 
 TimeLine
@@ -92,14 +87,49 @@ let tlCard2 = gsap.timeline({
     trigger: formation2,
   }
 });
-tlCard1.from(formation2, {y: -100, opacity: 0, duration: 2})
+tlCard1.from(formation2, {y: -100, opacity: 0, duration: 1.5})
 
 let tlCard3 = gsap.timeline({
   scrollTrigger: {
     trigger: formation3,
   }
 });
-tlCard1.from(formation3, {x: 100, opacity: 0, duration: 2})
+tlCard1.from(formation3, {x: 100, opacity: 0, duration: 1.5})
 
 // Réalisations
+
+const projetImg1 = document.querySelector('.my-projects-img-security');
+const projetTxt1 = document.querySelector('.my-projects-text-security');
+const projetTxt2 = document.querySelector('.my-projects-text-ocoeur');
+const projetImg2 = document.querySelector('.my-projects-img-ocoeur');
+
+
+let tlProjectImg1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: projetImg1,
+  }
+});
+tlProjectImg1.from(projetImg1, {x: -100, opacity: 0, duration: 2})
+
+let tlProjectText1 = gsap.timeline({
+  scrollTrigger: {
+    trigger: projetTxt1,
+  }
+});
+tlProjectText1.from(projetTxt1, {x: 100, opacity: 0, duration: 2})
+
+let tlProjectTxt2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: projetTxt2,
+  }
+});
+tlProjectTxt2.from(projetTxt2, {x: -100, opacity: 0, duration: 2})
+
+let tlProjectImg2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: projetImg2,
+  }
+});
+tlProjectImg2.from(projetImg2, {x: 100, opacity: 0, duration: 2})
+
 

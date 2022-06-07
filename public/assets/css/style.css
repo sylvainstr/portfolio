@@ -491,7 +491,8 @@ padding-top: 5rem;
 
 .my-projects-img-security,
 .my-projects-img-ocoeur,
-.my-projects-text {
+.my-projects-text-security,
+.my-projects-text-ocoeur {
   width: 650px;
   height: 450px;
   border-radius: 15px;
@@ -499,16 +500,18 @@ padding-top: 5rem;
 }
 
 .my-projects-img-security,
-.my-projects-text {
+.my-projects-text-security,
+.my-projects-text-ocoeur {
   margin-right: 80px;
 }
 
-.my-projects-text {
+.my-projects-text-security,
+.my-projects-text-ocoeur {
   background: #FFFFFF;
   border: 0.5px solid #D1D0D0;
 }
 
-.my-projects-text .text-ltr {
+.my-projects-text-ocoeur .text-ltr {
   direction: ltr;
 }
 
@@ -581,7 +584,8 @@ padding-top: 5rem;
   transform: translate(165px, 18px);
 }
 
-.my-projects-text h1 {
+.my-projects-text-security h1,
+.my-projects-text-ocoeur h1 {
   font-family: 'Biryani';
   font-style: normal;
   font-weight: 700;
@@ -593,11 +597,13 @@ padding-top: 5rem;
   padding-bottom: 1rem;
 }
 
-.my-projects-text ul {
+.my-projects-text-security ul,
+.my-projects-text-ocoeur ul {
   padding-bottom: 2rem;
 }
 
-.my-projects-text li {
+.my-projects-text-security li,
+.my-projects-text-ocoeur li  {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
@@ -609,12 +615,12 @@ padding-top: 5rem;
   padding-block: 0.5rem;
 }
 
-.my-projects-text li a{
+.my-projects-text-security li a{
   color: #332800;
   text-decoration: none;
 }
 
-.my-projects-text li a:hover{
+.my-projects-text-security li a:hover{
   color: #FFCE1F;
 }
 
