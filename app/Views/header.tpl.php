@@ -16,7 +16,6 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
 
      <!-- JS -->
-  <script src="<?= $absoluteUrl ?>assets/js/app.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/active-scroll.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/animation.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/skill-card.js" defer='true'></script>

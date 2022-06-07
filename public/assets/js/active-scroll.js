@@ -14,7 +14,8 @@ window.onscroll = () => {
       navLinks.forEach(links => {
         links.classList.remove('active');
         document.querySelector('header nav a[href*=' + id + ']').style.transition = "ease-in-out 0.5s";
-        document.querySelector('header nav a[href*=' + id + ']').classList.add('active')
+        document.querySelector('header nav a[href*=' + id + ']').
+        classList.add('active')
       });
     };
   });
