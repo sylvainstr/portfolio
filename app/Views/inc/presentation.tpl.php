@@ -1,5 +1,5 @@
 <section class="presentation" id="presentation">
-<h1 class="presentation-title">À propos</h1>
+  <h1 class="presentation-title">À propos</h1>
   <div class="line-xs"></div>
 
   <div class="presentation-group">
@@ -7,7 +7,7 @@
       <img src="<?= $absoluteUrl ?>assets/images/profil.png" alt="image de profil de sylvain sainte romane">
     </div>
     <div class="presentation-descr">
-      <h2>Envie d'en savoir un plus ?</h2>
+      <h2>Envie d'en savoir un peu plus ?</h2>
       <p>
         J'ai suivi une formation de développeur web fullstack d'une durée de 6 mois au sein de l'école O'clock pour découvrir un environnement qui m'a toujours attiré.
       <br>J'ai osé me lancer dans ce nouveau défi afin de pouvoir travailler dans un secteur qui me plaît.

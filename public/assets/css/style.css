@@ -4,6 +4,17 @@
   margin: 0;
 }
 
+html::-webkit-scrollbar {
+  width: 20px;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: #FFCE1F;
+}
+
 body {
   font-family: 'Nunito', 'Biryani', sans-serif;
   background-color: #FFF;
@@ -752,8 +763,76 @@ section.presentation {
   color: #FFCE1F;
 }
 
+/* Contact */
+
+section.contact {
+  padding-top: 8rem;
+}
+
+.contact .contact-title {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 49px;
+  color: #332800;
+}
+
+.contact .contact-title,
+.contact .line-md {
+  margin-left: 100px;
+}
+
+.line-md {
+  border-bottom: #FFCE1F solid 4px;
+  width: 160px;
+}
+
+.contact-group {
+  display: flex;
+  padding-top: 6rem;
+}
+
+.contact-group .contact-infos {
+  display: flex;
+  flex-direction: column;
+  background: #FFCE1F;
+  border-radius: 15px;
+  width: 450px;
+  height: 590px;
+  padding-top: 3rem;
+}
+
+.contact-group .contact-infos .contact-infos-item {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact-value {
+  padding-left: 1rem;
+}
+
+.contact-infos a {
+  text-decoration: none;
+  color: #332800;
+}
+
+.contact-value:hover {
+  font-weight: 700;
+  transform: scale(1.02);
+}
+
+
+
+
 
 /* Footer */
+
+footer {
+  padding-top: 8rem;
+}
 
 .foot img {
   width: 100%;
