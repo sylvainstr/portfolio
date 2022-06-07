@@ -21,6 +21,7 @@ body {
   font-style: normal;
   font-weight: 400;
   position: relative;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -875,15 +876,6 @@ form {
   padding-inline: 5px;
 }
 
-.contact-form::placeholder {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
-  color: #332800;
-}
-
 .contact-form input,
 .contact-form textarea {
   border: 2px solid #332800;
@@ -910,10 +902,22 @@ form {
 }
 
 input[type="text"] {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #332800;
   padding-left: 1.5rem;
 }
 
 textarea[type="text"] {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #332800;
   padding-left: 1.5rem;
   padding-top: 1.5rem;
 }
@@ -949,6 +953,94 @@ footer {
   padding-top: 8rem;
 }
 
+.foot {
+  height: 458px;
+}
+
 .foot img {
+  position: relative;
   width: 100%;
+}
+
+.foot h1 {
+  position: absolute;
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 88px;
+  color: #332800;
+  transform: translate(100px, -320px);
+}
+
+.foot h2 {
+  position: absolute;
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 53px;
+  color: #332800;
+  transform: translate(100px, -220px);
+}
+
+.list-grouped {
+  display: flex;
+  transform: translate(1430px, -440px);  
+}
+
+.list-grouped li a {
+  text-decoration: none;
+  color: #332800;
+}
+
+.list-grouped li a:hover {
+  font-weight: 700;
+  transform: scale(1.02);
+}
+
+.list-grouped .list-first,
+.list-grouped .list-second {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5rem;
+}
+
+.list-grouped h3 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: right;
+  color: #332800;
+}
+
+.list-grouped li {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  color: #332800;
+  list-style: none;
+  padding-top: 25px;
+}
+
+.foot-bot {
+  position: absolute;
+  border-top: 2px solid #332800;
+  margin-inline: 100px;
+  padding-block: 30px;
+  width: -webkit-fill-available;
+}
+
+.foot-bot p {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #332800;
 }
