@@ -59,12 +59,33 @@
           </div>
         </a>
 
-
-
-
       </div>
 
-      <form action=""></form>
+      <div class="contact-form">
+        <form action="" method="post">
+          <div class="contact-group">
+            <div class="contact-item-name">
+              <label>Nom et prénom</label>
+              <input type="text" required="required" placeholder="Exemple: Marc Dupont">  
+            </div>
+            <div class="contact-item-company">
+              <label>Nom de l'entreprise</label>
+              <input type="text" required="required" placeholder="Exemple : Google Company">  
+            </div>
+          </div>
+
+          <div class="contact-item-mess">
+            <label>Votre message</label>
+            <textarea type="text" required="required" placeholder="Tapez votre message.."></textarea>            
+          </div>
+
+          <div class="contact-button">
+            <button type="submit">ENVOYER</button>
+          </div>
+
+
+        </form>
+      </div>
 
     </div>
 
