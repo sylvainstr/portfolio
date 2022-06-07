@@ -16,6 +16,11 @@ const formation1 = document.querySelector('.formation-card-first');
 const formation2 = document.querySelector('.formation-card-second');
 const formation3 = document.querySelector('.formation-card-third');
 
+const projetImg1 = document.querySelector('.my-projects-img-security');
+const projetTxt1 = document.querySelector('.my-projects-text');
+const projetTxt2 = document.querySelector('.my-projects-text');
+const projetImg2 = document.querySelector('.my-projects-img-ocoeur');
+
 const TimeLine = new TimelineMax({paused: true});
 
 TimeLine
@@ -95,3 +100,6 @@ let tlCard3 = gsap.timeline({
   }
 });
 tlCard1.from(formation3, {x: 100, opacity: 0, duration: 2})
+
+// Réalisations
+

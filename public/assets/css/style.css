@@ -504,12 +504,36 @@ padding-top: 5rem;
 }
 
 .my-projects-text {
-  width: 650px;
-  height: 450px;
   background: #FFFFFF;
   border: 0.5px solid #D1D0D0;
-  box-shadow: 2px 4px 4px rgba(51, 40, 0, 0.15);
-  border-radius: 15px;
+}
+
+.my-projects-text .text-ltr {
+  direction: ltr;
+}
+
+.scroller-right,
+.scroller-left {
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.scroller-left {
+  direction: rtl;
+  text-align: left;
+}
+
+.scroller-right::-webkit-scrollbar,
+.scroller-left::-webkit-scrollbar {
+  width: 20px;
+}
+
+.scroller-right::-webkit-scrollbar-thumb,
+.scroller-left::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: #FFCE1F;
 }
 
 .my-projects-img-security {
@@ -555,6 +579,43 @@ padding-top: 5rem;
 .ocoeur {
   width: 47%;
   transform: translate(165px, 18px);
+}
+
+.my-projects-text h1 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 39px;
+  text-align: center;
+  color: #332800;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.my-projects-text ul {
+  padding-bottom: 2rem;
+}
+
+.my-projects-text li {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5F5C4E;
+  list-style-type: none;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}
+
+.my-projects-text li a{
+  color: #332800;
+  text-decoration: none;
+}
+
+.my-projects-text li a:hover{
+  color: #FFCE1F;
 }
 
 
