@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e85e3d4068afc1db67ce38f3348bb11b85dca58f',
+        'reference' => '6763f8ca6ef9d473ecf6de259af43e2a257089ee',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e85e3d4068afc1db67ce38f3348bb11b85dca58f',
+            'reference' => '6763f8ca6ef9d473ecf6de259af43e2a257089ee',
             'dev_requirement' => false,
         ),
         'altorouter/altorouter' => array(
@@ -26,6 +26,15 @@
             'install_path' => __DIR__ . '/../altorouter/altorouter',
             'aliases' => array(),
             'reference' => 'f6fede4f94ced7c22ba63a9b8af0bf2dc38e3cb2',
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.6.0',
+            'version' => '6.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'e43bac82edc26ca04b36143a48bde1c051cfd5b1',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-mbstring' => array(

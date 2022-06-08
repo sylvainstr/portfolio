@@ -10,12 +10,12 @@
             <div class="xp-first">
               <h2>Freelance</h2>
               <h3>Février 2022 à Mars 2022</h3>
-              <p>Réalisation d'un site web pour un cabinet de réléfléxologie plantaire.</p>
+              <p>Réalisation d'un site web pour un cabinet de réflexologie plantaire.</p>
               <p>Conception du site et du développement de l'application <a href="https://www.ocoeur2soi.fr/" target="_blank">https://www.ocoeur2soi.fr/</a>.</p>
               <p>Accompagnement client.</p>
               <p>Projet réalisé avec les technologies suivantes :</p>
               <p><span class="bold">PHP</span> / <span class="bold">Symfony</span> / <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">HTML5</span> / <span class="bold">CSS3</span> / <span class="bold">SQL</span></p>
-              <p>Déploiement de l'application sur o2switch.</p>
+              <p>Déploiement de l'application sur <span class="bold">o2switch</span>.</p>
             </div>
 
             <div class="xp-second">
@@ -26,7 +26,7 @@
             <div class="xp-third">
             <h2>Sonovision</h2>
               <h3>Février 2007 à Octobre 2020, à Colomiers</h3>
-              <p>Secteur Aeronautique dans le domaine de la documentation technique.</p>
+              <p>Secteur Aéronautique dans le domaine de la documentation technique.</p>
               <p>Rédacteur technique, illustrateur, contrôleur - <span class="bold">WDM</span>.</p>
               <p>Rédacteur technique Service Bulletin - <span class="bold">SEMB</span>.</p>
             </div>
@@ -46,7 +46,7 @@
               <p>Conception du cahier des charges et de l'application<br> <a href="https://www.security-response.fr/" target="_blank">https://www.security-response.fr/</a>.</p>
               <p>Projet réalisé avec les technologies suivantes :</p>
               <p><span class="bold">PHP</span> / <span class="bold">Symfony</span> / <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">HTML5</span> / <span class="bold">CSS3</span> / <span class="bold">Bootstrap</span> / <br><span class="bold">SQL</span> / <span class="bold">Leaflet</span> / <span class="bold">AdminLTE</span></p>
-              <p>Déploiement de l'application sur o2switch.</p>
+              <p>Déploiement de l'application sur <span class="bold">o2switch</span>.</p>
             </div>
 
             <div class="xp-third">

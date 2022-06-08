@@ -5,7 +5,7 @@
           <div class="skill-card-first active-card">
             <div class="skill-card-inside">
               <h1>01</h1>
-                <h2>Languages</h2>
+                <h2>Langages</h2>
                 <ul>
                   <li>HTML 5</li>
                   <li>CSS 3</li>

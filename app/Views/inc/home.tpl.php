@@ -6,8 +6,8 @@
       <h1>Sylvain Sainte Romane</h1>
         <h2>Développeur Web</h2>
         <p class="intro-txt">
-          Fraîchement sorti d'une reconversion professionnelle, <br>étant passionné en informatique.
-          <br>J'ai soif d'apprendre et j'aime résoudre des problèmes.
+          Fraîchement sorti d'une reconversion professionnelle, <br>étant passionné d'informatique,
+          <br>j'ai soif d'apprendre et j'aime résoudre des problèmes.
         </p>    
     </div>  
 

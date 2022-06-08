@@ -50,7 +50,7 @@
           </div>
         </a>
 
-        <a class="contact-infos-item" href="<?= $absoluteUrl ?>assets/files/annexe.pdf" target="_blank">
+        <a class="contact-infos-item" href="<?= $absoluteUrl ?>assets/files/cv.pdf" target="_blank">
           <div class="contact-img">
             <img src="<?= $absoluteUrl ?>assets/images/cv.png" alt="image d'un cv">
           </div>
@@ -66,25 +66,26 @@
           <div class="contact-group">
             <div class="contact-item-name">
               <label>Nom et prénom</label>
-              <input type="text" required="required" placeholder="Exemple: Marc Dupont">  
+              <input type="text" name="name" required="required" placeholder="Exemple: Marc Dupont">  
             </div>
             <div class="contact-item-company">
               <label>Nom de l'entreprise</label>
-              <input type="text" required="required" placeholder="Exemple : Google Company">  
+              <input type="text" name="company" required="required" placeholder="Exemple : Google Company">  
             </div>
           </div>
 
           <div class="contact-item-mess">
             <label>Votre message</label>
-            <textarea type="text" required="required" placeholder="Tapez votre message.."></textarea>            
+            <textarea type="text" name="message" required="required" placeholder="Tapez votre message..."></textarea>            
           </div>
 
           <div class="contact-button">
-            <button type="submit">ENVOYER</button>
+            <button type="submit">envoyer</button>
           </div>
 
 
         </form>
+
       </div>
 
     </div>

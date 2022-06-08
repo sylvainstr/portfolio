@@ -13,14 +13,14 @@
         <h1>Security Response</h1>
         <ul>
           <li>Projet réalisé en fin de formation (4 semaines). <br>Mise en situation professionnelle, travail en équipe, 4 développeurs.</li>
-          <li>Conception de l'application <span class="bold">Security Response</span>, plateforme de mise en relation entre professionnelles et professionnelles de la sécurité informatique.</li>
+          <li>Conception de l'application <span class="bold">Security Response</span>, plateforme de mise en relation entre des entreprises et des professionnels de la sécurité informatique.</li>
           <li>Projet réalisé de A à Z, de la conception du cahier des charges au déploiement et présentation du projet final.</li>
           <li>Origanisation de travail avec la méthode <span class="bold">Agile</span> sous forme de 4 Sprints de 1 semaine.</li>
-          <li>Mise en place d'un moteur de recherche d'expert en informatique avec géolocalisation sur carte (utilisation de la libraire <span class="bold">Javascript Leaflet</span>).</li>
+          <li>Mise en place d'un moteur de recherche d'experts en informatique avec géolocalisation sur carte (utilisation de la librairie <span class="bold">Javascript Leaflet</span>).</li>
           <li>Mise en place d'un backoffice, (utilisation de <span class="bold">AdminLTE</span>).</li>
           <li>La partie Back-end a été réalisée avec le framework <span class="bold">PHP Symfony</span> et le modèle <span class="bold">MVC</span>.</li>
           <li>L’<span class="bold">ORM Doctrine</span> a été utilisé pour la gestion de base de données.</li>
-          <li>La parti Front-end a été réalisée en <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">Bootstrap</span>.</li>
+          <li>La partie Front-end a été réalisée en <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">Bootstrap</span>.</li>
           <li>Quelques extraits de l'application et du cachier des charges, <a href="<?= $absoluteUrl ?>assets/files/annexe.pdf" target="_blank"><span class="bold">Télécharger ICI !!</span></a></li>
         </ul>
       </div>
@@ -33,7 +33,7 @@
           <h1>Ocoeur2soi</h1>
           <ul>
             <li>Projet réalisé dans le cadre de <span class="bold">Freelance</span> en totale autonomie.</li>
-            <li>Site de réfléxologie plantaire et massage divers.</li>
+            <li>Site de réflexologie plantaire et massages divers.</li>
             <li>Intégration des maquettes via <span class="bold">Figma</span>.</li>
             <li>La partie Back-end a été réalisée avec le framework <span class="bold">PHP Symfony</span> et le modèle <span class="bold">MVC</span>.</li>
             <li>Mise en place d'un backoffice pour la gestion des témoignages (ajout, suppression, modification).</li>

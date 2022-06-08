@@ -942,6 +942,7 @@ textarea[type="text"] {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 
@@ -1043,4 +1044,44 @@ footer {
   font-size: 14px;
   line-height: 25px;
   color: #332800;
+}
+
+/* Error 404 */
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.line-error {
+  border-bottom: #FFCE1F solid 4px;
+  width: 270px;
+}
+
+.error p {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  color: #332800;
+  padding-bottom: 1rem;
+}
+
+.error a {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  color: #332800;
+  background: #FFCE1F;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 3rem;
+  text-transform: uppercase;
 }
