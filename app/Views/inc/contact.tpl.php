@@ -70,7 +70,7 @@
             </div>
             <div class="contact-item-company">
               <label>Nom de l'entreprise</label>
-              <input type="text" name="company" required="required" placeholder="Exemple : Google Company">  
+              <input type="text" name="company" placeholder="Exemple : Google Company">  
             </div>
           </div>
 
@@ -82,7 +82,8 @@
           <div class="contact-button">
             <button type="submit">envoyer</button>
           </div>
-
+          
+          <?php var_dump($_POST); ?>
 
         </form>
 

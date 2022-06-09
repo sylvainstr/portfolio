@@ -12,6 +12,15 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;700;900&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
+   <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $absoluteUrl ?>/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $absoluteUrl ?>/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $absoluteUrl ?>/favicon/favicon-16x16.png">
+  <link rel="manifest" href="<?php echo $absoluteUrl ?>/favicon/site.webmanifest">
+  <link rel="mask-icon" href="<?php echo $absoluteUrl ?>/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
 
