@@ -1052,19 +1052,19 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 12rem;
 }
 
 .line-error {
   border-bottom: #FFCE1F solid 4px;
-  width: 270px;
+  width: 375px;
 }
 
 .error p {
   font-family: 'Biryani';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 55px;
   line-height: 42px;
   color: #332800;
   padding-bottom: 1rem;
