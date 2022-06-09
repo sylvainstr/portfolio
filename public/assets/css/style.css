@@ -1229,7 +1229,7 @@ footer {
 
   .formation-group {
     width: 1000px;
-    margin-left: 10px;
+    margin-left: 2px;
   }
 
   .formation-dashed {
@@ -1263,7 +1263,7 @@ footer {
   }
 
   .presentation-descr .profil {
-    width: 870px;
+    width: 880px;
     position: absolute;
     transform: translate(-325px, 260px);
   }

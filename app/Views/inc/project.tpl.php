@@ -30,7 +30,7 @@
       
       <div class="my-projects-text-ocoeur scroller-left">
         <div class="text-ltr">
-          <h1>Ocoeur2soi</h1>
+          <h1>Ô Coeur 2 Soi</h1>
           <ul>
             <li>Projet réalisé dans le cadre de <span class="bold">Freelance</span> en totale autonomie.</li>
             <li>Site de réflexologie plantaire et massages divers.</li>
