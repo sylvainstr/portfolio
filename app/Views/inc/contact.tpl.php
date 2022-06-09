@@ -62,30 +62,73 @@
       </div>
 
       <div class="contact-form">
+
+        <?php if(isset($_POST['submit']))
+              {
+                if(isset($_POST['name']) && isset($_POST['message']))
+                {
+                  if(!empty($_POST['name']) && !empty($_POST['message']))
+                  {
+                    $name = $_POST['name'];
+                    $message = $_POST['message'];
+  
+                      echo "Bonjour <b> $name </b>, votre message a bien été envoyé";
+                  }
+                }
+              }
+        ?>
+
+        <?php if(array_key_exists('errors', $_SESSION)): ?>
+        <div class="alert-message">
+          <?php implode ('<br>', $_SESSION['errors']); ?>
+        </div>
+        <?php unset($_SESSION['erros']); endif; ?>
+
         <form action="" method="post">
           <div class="contact-group">
             <div class="contact-item-name">
-              <label>Nom et prénom</label>
-              <input type="text" name="name" required="required" placeholder="Exemple: Marc Dupont">  
+              <label for="name">Nom et prénom</label>
+              <input type="text" name="name" id="name" required="required" placeholder="Exemple: Marc Dupont">  
             </div>
             <div class="contact-item-company">
-              <label>Nom de l'entreprise</label>
-              <input type="text" name="company" placeholder="Exemple : Google Company">  
+              <label for="company">Nom de l'entreprise</label>
+              <input type="text" name="company" id="company" placeholder="Exemple : Google Company">  
             </div>
           </div>
 
           <div class="contact-item-mess">
-            <label>Votre message</label>
-            <textarea type="text" name="message" required="required" placeholder="Tapez votre message..."></textarea>            
+            <label for="message">Votre message</label>
+            <textarea type="text" name="message" id="message" required="required" placeholder="Tapez votre message..."></textarea>            
           </div>
 
           <div class="contact-button">
-            <button type="submit">envoyer</button>
+            <button type="submit" name="submit">envoyer</button>
           </div>
-          
-          <?php var_dump($_POST); ?>
+        </form> 
+        
+        <?php 
 
-        </form>
+        $errors = [];
+
+        if(!array_key_exists('name', $_POST) || $_POST['name'] == '') {
+          $errors['name'] = "Vous n'avez pas renseigné votre nom";
+        }
+        if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
+          $errors['message'] = "Vous n'avez pas renseigné votre message";
+        }
+        if(!empty($errors)) {
+          session_start();
+          $_SESSION['errors'] = $errors;
+          header('Location: index.php');
+        } else {
+          $name = $_POST['name'];
+          $company = $_POST['company'];
+          $message = $_POST['message'];
+  
+          mail('contact@sylvainsainteromane.com','Formulaire de contact', $name, $company, $message);
+        }
+        
+        ?>
 
       </div>
 

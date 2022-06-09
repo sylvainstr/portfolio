@@ -15,28 +15,30 @@
       <p class="profil">
       <span class="profil-word">&nbsp;Profil&nbsp;</span>dynamique="💥"&nbsp; autonome="🤖"&nbsp; sociable="🍻"&nbsp; travail d'équipe="🤝"&nbsp; curieux="🧐"&nbsp; <span class="slash">/</span>
       </p>
-      <h2>Mes centres d’intérêt</h2>
-      <div class="hobbies-group">
-        <div class="hobbies-img-game">
-          <img src="<?= $absoluteUrl ?>assets/images/game.png" alt="image d'une manette de jeu">
-        </div>
-        <div class="hobbies-title">
-          <h3>Jeux Vidéos</h3>
-        </div>
+      <div class="hobbies-grouped">
+        <h2>Mes centres d’intérêt</h2>
+        <div class="hobbies-group">
+          <div class="hobbies-img-game">
+            <img src="<?= $absoluteUrl ?>assets/images/game.png" alt="image d'une manette de jeu">
+          </div>
+          <div class="hobbies-title">
+            <h3>Jeux Vidéos</h3>
+          </div>
 
-        <div class="hobbies-img">
-          <img src="<?= $absoluteUrl ?>assets/images/fisherman.png" alt="image d'un pêcheur">
-        </div>
-        <div class="hobbies-title">
-          <h3>Pêche/Nature</h3>
-        </div>
+          <div class="hobbies-img">
+            <img src="<?= $absoluteUrl ?>assets/images/fisherman.png" alt="image d'un pêcheur">
+          </div>
+          <div class="hobbies-title">
+            <h3>Pêche/Nature</h3>
+          </div>
 
-        <div class="hobbies-img">
-          <img src="<?= $absoluteUrl ?>assets/images/rugby.png" alt="image de rugby">
-        </div>
-        <div class="hobbies-title">
-          <h3>Sports (Rugby, Tennis)</h3>
-        </div>       
+          <div class="hobbies-img">
+            <img src="<?= $absoluteUrl ?>assets/images/rugby.png" alt="image de rugby">
+          </div>
+          <div class="hobbies-title">
+            <h3>Sports (Rugby, Tennis)</h3>
+          </div>   
+        </div>   
     </div>
 
     
