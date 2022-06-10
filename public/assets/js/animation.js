@@ -27,8 +27,12 @@ const animation = () => {
   .from(user, 1, {y: -100, opacity: 0})
   .from(job, 1, {opacity: 0}, '-=0.4')
   .from(text, 1, {opacity: 0}, '-=0.5')
-  .from(image, 1, {x: 100, opacity: 0}, '-=0.5')
-  .staggerFrom(allItems, 1, {y: -50, opacity: 0}, 0.2, '-=1')
+  .from(image, 1, {x: 100, opacity: 0}, '-=0.5');
+
+  if (window.outerWidth > 800) {
+    TimeLine.staggerFrom(allItems, 1, {y: -50, opacity: 0}, 0.2, '-=1')
+  };
+  
 
   TimeLine.play();
 

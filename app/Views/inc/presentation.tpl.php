@@ -16,7 +16,7 @@
       <span class="profil-word">&nbsp;Profil&nbsp;</span>dynamique="💥"&nbsp; autonome="🤖"&nbsp; sociable="🍻"&nbsp; travail d'équipe="🤝"&nbsp; curieux="🧐"&nbsp; <span class="slash">/</span>
       </p>
       <div class="hobbies-grouped">
-        <h2>Mes centres d’intérêt</h2>
+        <h2 class="hobbies-title">Mes centres d’intérêt</h2>
         <div class="hobbies-group">
           <div class="hobbies-img-game">
             <img src="<?= $absoluteUrl ?>assets/images/game.png" alt="image d'une manette de jeu">

@@ -11,7 +11,7 @@
         </p>    
     </div>  
 
-    <div class="intro-img">
+    <div class="intro-img hide">
       <img src="<?= $absoluteUrl ?>assets/images/intro.jpg" alt="image d'une personne sur un ordinateur">
     </div>
   </section>
