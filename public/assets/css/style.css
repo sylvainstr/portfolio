@@ -1382,6 +1382,10 @@ footer {
     display: none;
   }
 
+  .skill-card-inside-sm{
+    display: none;
+  }
+
   .skill-card-first,
   .skill-card-second,
   .skill-card-third {
@@ -1727,11 +1731,23 @@ footer {
     padding-left: 30px;
   }
 
+  .xp-item {
+    max-width: fit-content;
+  }
+
   .skill-card-first,
   .skill-card-second,
   .skill-card-third {
     width: 411px;
-}
+  }
+  .skill-card-second .skill-card-inside {
+    display: none;
+  }
+
+  .skill-card-inside-sm {
+    display: block;
+    padding-left: 4rem;
+  }
 
   section.formation .formation-title,
   section.formation .line {
@@ -1781,5 +1797,134 @@ footer {
   section.presentation {
     padding-top: 4rem;
   }
+
+  .presentation-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .presentation-descr {
+    padding-left: 0rem;
+    margin: 0;
+    width: 355px;
+  }
+
+  .presentation-descr h2 {
+    font-size: 22px;
+  }
+
+  .presentation-descr p {
+    width: 355px;
+    font-size: 18px;
+  }
+
+  .presentation-descr .profil {
+    display: none;
+  }
+
+  .presentation .presentation-title,
+  .presentation .line-xs {
+    margin-left: 30px;
+  }
+
+  .hobbies-grouped {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
   
+  .hobbies-title {
+    padding-left: 0;
+  }
+
+  .hobbies-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+    width: auto;
+  }
+
+  .contact .contact-title,
+  .contact .line-md {
+    margin-left: 30px;
+  }
+  .hobbies-title h3 {
+    margin-left: 50px;
+  }
+
+  .contact-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-group .contact-infos,
+  .contact-form {
+    margin-inline: 10px;
+    width: auto;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .foot h1,
+  .foot h2,
+  .list-grouped {
+    position: initial;
+    transform: translate(0, 0);
+    text-align: center;
+  }
+
+  .foot h1,
+  .foot h2 {
+    height: 55px;
+  }
+
+  .foot h2 {
+    padding-bottom: 4rem;
+  }
+
+  .list-grouped {
+    border-top: 2px solid #332800;
+    margin-inline: 50px;
+    padding: 2rem 0 2rem 2rem;
+    width: -webkit-fill-available;
+    margin-inline: 50px;
+  }
+
+  .foot-bot {
+    position: initial;
+    transform: translate(0px, -0);
+    margin-inline: 50px;
+    padding-block: 17px;
+  }
+
+  .foot-bot p {
+    text-align: center;
+  }
+
+  footer {
+    background-color: #FFCE1F;
+    border-radius: 5px;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .foot img {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+
+
 }

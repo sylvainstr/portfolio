@@ -82,7 +82,7 @@
       <p>Projet de fin de formation, mise en situation professionnelle.</p>
       <p>Conception du cahier des charges et de l'application<br> <a href="https://www.security-response.fr/" target="_blank">https://www.security-response.fr/</a>.</p>
       <p>Projet réalisé avec les technologies suivantes :</p>
-      <p><span class="bold">PHP</span> / <span class="bold">Symfony</span> / <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">HTML5</span> / <span class="bold">CSS3</span> / <span class="bold">Bootstrap</span> / <br><span class="bold">SQL</span> / <span class="bold">Leaflet</span> / <span class="bold">AdminLTE</span></p>
+      <p><span class="bold">PHP</span> / <span class="bold">Symfony</span> / <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">HTML5</span> / <span class="bold">CSS3</span> / <span class="bold">Bootstrap</span> / <span class="bold">SQL</span> / <span class="bold">Leaflet</span> / <span class="bold">AdminLTE</span></p>
       <p>Déploiement de l'application sur <span class="bold">o2switch</span>.</p>
     </div>
 
