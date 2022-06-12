@@ -1925,6 +1925,71 @@ footer {
 
 @media screen and (max-width: 375px) {
 
+  section.skills h1,
+  section.formations h1,
+  section.experience h1,
+  .formation h1,
+  h1.projects-title,
+  .presentation .presentation-title,
+  .contact .contact-title {
+    font-size: 25px;
+  }
 
+  .skill-card-first,
+  .skill-card-second,
+  .skill-card-third {
+    width: 360px;
+  }
 
+  .skills .skill-card-first li,
+  .skills .skill-card-second li,
+  .skills .skill-card-third li {
+    font-size: 20px;
+  }
+
+  .formation-card-first,
+  .formation-card-second,
+  .formation-card-third {
+    width: 360px;
+  }
+
+  .my-projects-img-security,
+  .my-projects-img-ocoeur,
+  .my-projects-text-security,
+  .my-projects-text-ocoeur {
+    width: 360px;
+  }
+
+  .my-projects-img-security h3 {
+    width: 27%;
+    transform: translate(130px, 5px);
+  }
+
+  .my-projects-img-ocoeur h3 {
+    transform: translate(140px, 10px);
+    width: 27%;
+  }
+
+  .presentation-descr h2 {
+    font-size: 20px;
+  }
+
+  .presentation-descr p {
+    width: 355px;
+    font-size: 16px;
+  }
+
+  .contact-group .contact-infos, .contact-form {
+    margin-inline: 8px;
+  }
+
+  .contact-item-name input,
+  .contact-item-company input,
+  .contact-item-mess textarea {
+    width: 340px;
+  }
+
+  .list-grouped h3 {
+    font-size: 12px;
+  }
 }
