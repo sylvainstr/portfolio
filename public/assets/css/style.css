@@ -156,6 +156,10 @@ section.intro {
 
 /* Skills */
 
+.skill-card-inside-sm {
+  display: none;
+}
+
 section.skills {
   padding-left: 100px;
   padding-top: 8rem;
@@ -277,6 +281,11 @@ section.experience h1 {
 
 .xp-group {
   display: flex;
+}
+
+
+.xp-group-mobile {
+  display: none;
 }
 
 .left {
