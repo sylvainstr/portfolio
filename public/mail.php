@@ -4,12 +4,17 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
+if (isset($_POST['name']) && ($_POST['message'])) {
+  $name = $_POST['name'];
+  $company = $_POST['company'];
+  $message = $_POST['message'];
+}
+
 require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/phpmailer/phpmailer/src/Exception.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/phpmailer/phpmailer/src/SMTP.php';
 
-function sendmail($company, $message, $name)
-{
+
     $mail = new PHPMailer(true);
 
     try {
@@ -35,8 +40,8 @@ function sendmail($company, $message, $name)
         //Content
       $mail->isHTML(true);                                  //Set email format to HTML
       $mail->Subject = $company;
-        $mail->Body    = $message . $name;
-        $mail->AltBody = $message;
+      $mail->Body    = $message . $name;
+      $mail->AltBody = $message;
 
         $mail->send();
         echo 'Le message a été envoyé';
@@ -45,6 +50,5 @@ function sendmail($company, $message, $name)
     } catch (Exception $e) {
         echo "Message non envoyé. Erreur: {$mail->ErrorInfo}";
     }
-}
       
 
