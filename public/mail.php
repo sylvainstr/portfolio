@@ -14,9 +14,9 @@ $mail = new PHPMailer(true);
 try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Enable verbose debug output
-    $mail->isSMTP();                                        //Send using SMTP
+    // $mail->isSMTP();                                        //Send using SMTP
     $mail->Host       = 'bij.o2switch.net';                 //Set the SMTP server to send through
-    $mail->Port       = 465;                               //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port       = 26;                               //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     $mail->CharSet = 'utf-8';                                  //Charset
 
     //Recipients
@@ -39,6 +39,10 @@ try {
 
     $mail->send();
     echo 'Le message a été envoyé';
+
+    header('Location: '.$absoluteUrl);
+    exit();
+
 } catch (Exception $e) {
     echo "Message non envoyé. Erreur: {$mail->ErrorInfo}";
 }
