@@ -19,7 +19,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/phpmailer/phpmailer/src/SMTP.php
 
     try {
         //Server settings
-      $mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Enable verbose debug output
+      // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Enable verbose debug output
       // $mail->isSMTP();                                        //Send using SMTP
       $mail->Host       = 'bij.o2switch.net';                 //Set the SMTP server to send through
       $mail->Port       = 26;                               //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
@@ -40,7 +40,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/phpmailer/phpmailer/src/SMTP.php
         //Content
       $mail->isHTML(true);                                  //Set email format to HTML
       $mail->Subject = $company;
-      $mail->Body    = $message . $name;
+      $mail->Body    = "$message <br> $name";
       $mail->AltBody = $message;
 
         $mail->send();
