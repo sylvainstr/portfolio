@@ -44,8 +44,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/phpmailer/phpmailer/src/SMTP.php
       $mail->AltBody = $message;
 
         $mail->send();
-        sleep(10);
-        echo "Bonjour <b> $name </b>, votre message a bien été envoyé !!";
+        // echo "Bonjour <b> $name </b>, votre message a bien été envoyé !!";
         header("Location: https://www.sylvainsainteromane.com/");        
         
       } catch (Exception $e) {
