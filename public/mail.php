@@ -45,7 +45,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/phpmailer/phpmailer/src/SMTP.php
 
         $mail->send();
         // echo "Bonjour <b> $name </b>, votre message a bien été envoyé !!";
-        header("Location: $absoluteUrl");        
+        header("Location: https://www.sylvainsainteromane.com/");        
         
       } catch (Exception $e) {
         echo "Message non envoyé. Erreur: {$mail->ErrorInfo}";
