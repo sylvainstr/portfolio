@@ -84,23 +84,7 @@
           </div>
         </form> 
         
-        <?php 
-        
-        if(isset($_POST['submit']))
-          {
-            if(isset($_POST['name']) && isset($_POST['message']))
-            {
-              if(!empty($_POST['name']) && !empty($_POST['message']))
-              {
-                $name = $_POST['name'];
-                $message = $_POST['message'];
 
-                  echo "Bonjour <b> $name </b>, votre message a bien été envoyé";
-              }
-            }
-          }
-
-        ?>
 
       </div>
 
