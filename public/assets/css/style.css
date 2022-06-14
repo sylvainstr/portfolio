@@ -1108,13 +1108,6 @@ footer {
   text-transform: uppercase;
 }
 
-.alert-message {
-  background-color: red;
-  color: black;
-  font-size: 14px;
-  font-weight: 700;
-}
-
 /* Media query */
 
 @media screen and (min-width: 1930px) {
