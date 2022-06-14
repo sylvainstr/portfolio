@@ -34,18 +34,17 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Sujet du message';
-    $mail->Body    = 'Message';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->Body    = $message;
+    $mail->AltBody = $message;
 
     $mail->send();
     echo 'Le message a été envoyé';
 
-    header('Location: '.$absoluteUrl);
-    exit();
+    header('Location: index.php');
 
 } catch (Exception $e) {
     echo "Message non envoyé. Erreur: {$mail->ErrorInfo}";
 }
-  
+
       
 

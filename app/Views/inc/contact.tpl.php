@@ -63,6 +63,27 @@
 
       <div class="contact-form">
 
+        <?php if(isset($_POST['submit']))
+              {
+                if(isset($_POST['name']) && isset($_POST['message']))
+                {
+                  if(!empty($_POST['name']) && !empty($_POST['message']))
+                  {
+                    $name = $_POST['name'];
+                    $message = $_POST['message'];
+  
+                      echo "Bonjour <b> $name </b>, votre message a bien été envoyé";
+                  }
+                }
+              }
+        ?>
+
+        <?php if(array_key_exists('errors', $_SESSION)): ?>
+        <div class="alert-message">
+          <?php implode ('<br>', $_SESSION['errors']); ?>
+        </div>
+        <?php unset($_SESSION['erros']); endif; ?>
+
         <form action="mail.php" method="post">
           <div class="contact-group">
             <div class="contact-item-name">
@@ -84,6 +105,30 @@
             <button type="submit" name="submit">envoyer</button>
           </div>
         </form> 
+        
+        <?php 
+
+        $errors = [];
+
+        if(!array_key_exists('name', $_POST) || $_POST['name'] == '') {
+          $errors['name'] = "Vous n'avez pas renseigné votre nom";
+        }
+        if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
+          $errors['message'] = "Vous n'avez pas renseigné votre message";
+        }
+        if(!empty($errors)) {
+          session_start();
+          $_SESSION['errors'] = $errors;
+          header('Location: index.php');
+        } else {
+          $name = $_POST['name'];
+          $company = $_POST['company'];
+          $message = $_POST['message'];
+  
+          mail('contact@sylvainsainteromane.com','Formulaire de contact', $name, $company, $message);
+        }
+        
+        ?>
 
       </div>
 
