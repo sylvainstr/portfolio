@@ -27,7 +27,7 @@ class MainController extends CoreController
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Enable verbose debug output
         $mail->isSMTP();                                        //Send using SMTP
         $mail->Host       = 'smtp://sylvainsainteromane.com/';                 //Set the SMTP server to send through
-        $mail->Port       = 25;                               //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        $mail->Port       = 26;                               //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
         $mail->CharSet = 'utf-8';                                  //Charset
 
         //Recipients
