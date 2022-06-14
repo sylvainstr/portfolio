@@ -20,8 +20,8 @@ try {
     $mail->CharSet = 'utf-8';                                  //Charset
 
     //Recipients
-    $mail->setFrom('no-reply@sylvain.sainteromane.fr');
-    $mail->addAddress('contact@sylvain.sainteromane.fr');     //Add a recipient
+    $mail->setFrom('no-reply@sylvainsainteromane.com');
+    $mail->addAddress('contact@sylvainsainteromane.com');     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
     // $mail->addCC('cc@example.com');
