@@ -125,7 +125,7 @@
           $company = $_POST['company'];
           $message = $_POST['message'];
   
-          mail('contact@sylvainsainteromane.com','Formulaire de contact', $name, $company, $message);
+          sendmail($company ,'Formulaire de contact', $name, $message);
         }
         
         ?>

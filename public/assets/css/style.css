@@ -1109,7 +1109,8 @@ footer {
 }
 
 .alert-message {
-  color: red;
+  background-color: red;
+  color: black;
   font-size: 14px;
   font-weight: 700;
 }
