@@ -34,8 +34,8 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Sujet du message';
-    $mail->Body    = $message;
-    $mail->AltBody = $message;
+    $mail->Body    = 'Message';
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
     echo 'Le message a été envoyé';
