@@ -15,7 +15,7 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                   //Enable verbose debug output
     $mail->isSMTP();                                        //Send using SMTP
-    $mail->Host       = 'sylvainsainteromane.com';                 //Set the SMTP server to send through
+    $mail->Host       = 'bij.o2switch.net';                 //Set the SMTP server to send through
     $mail->Port       = 465;                               //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     $mail->CharSet = 'utf-8';                                  //Charset
 
