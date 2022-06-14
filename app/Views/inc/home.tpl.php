@@ -17,7 +17,6 @@
   </section>
 
 <?php
-
 require __DIR__ . '/skills.tpl.php';
 require __DIR__ . '/experience.tpl.php';
 require __DIR__ . '/formations.tpl.php';
