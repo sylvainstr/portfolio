@@ -1686,6 +1686,10 @@ footer {
     padding-left: 10px;
   }
 
+  .contact-group .contact-infos {
+    margin-left: 1rem;
+  }
+
   .contact .contact-title, 
   .contact .line-md {
     margin-left: 50px;
@@ -1694,13 +1698,21 @@ footer {
   .contact-item-name input,
   .contact-item-company input,
   .contact-item-mess textarea {
-    width: 380px;
+    width: 368px;
   }
 
   .contact-form .contact-item-name label,
   .contact-form .contact-item-company label,
   .contact-form .contact-item-mess label {
     left: 1.8rem;
+  }
+
+  .contact-form .contact-item-company label {
+    top: 15.6rem;
+  }
+
+  .contact-form .contact-item-mess label {
+    top: 22.9rem;
   }
 
   .contact-button {
@@ -2115,4 +2127,143 @@ footer {
   .list-grouped h3 {
     font-size: 12px;
   }
+}
+
+@media screen and (max-width: 320px) {
+
+  .nav-mob {
+    padding-inline: 1rem;
+  }
+
+  .introduction {
+    margin-left: 260px;
+  }
+
+  .introduction h1 {
+    font-size: 25px;
+  }
+
+  .introduction h2 {
+    font-size: 22px;
+  }
+
+  .introduction p {
+    width: 300px;
+  }
+
+  section.skills h1,
+  section.formations h1,
+  section.experience h1,
+  .formation h1,
+  h1.projects-title,
+  .presentation .presentation-title,
+  .contact .contact-title {
+    font-size: 20px;
+  }
+
+  .skill-card-first,
+  .skill-card-second,
+  .skill-card-third {
+    width: 306px;
+  }
+
+  section.experience,
+  section.formation,
+  section.contact {
+    padding-top: 6rem;
+  }
+
+  .formation-card-first, .formation-card-second, .formation-card-third {
+    width: 305px;
+  }
+
+  .formation-dashed {
+    transform: translate(0px, 0);
+  }
+
+  .my-projects-img-security, .my-projects-img-ocoeur, .my-projects-text-security, .my-projects-text-ocoeur {
+    width: 300px;
+    margin-left: 48px;
+  }
+
+  .security-response {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .my-projects-img-security h3 {
+    width: 33%;
+    transform: translate(101px, -35px);
+  }
+
+  .ocoeur {
+    width: 54%;
+    transform: translate(77px, 9px);
+  }
+
+  .my-projects-img-ocoeur h3 {
+    transform: translate(101px, 18px);
+    width: 33%;
+  }
+
+  section.presentation {
+    padding-top: 1rem;
+  }
+
+  .presentation-descr h2 {
+    font-size: 19px;
+  }
+
+  .presentation-descr {
+    padding-left: 0rem;
+    margin: 0;
+    width: 300px;
+  }
+
+  .presentation-descr p {
+    width: 290px;
+    font-size: 16px;
+  }
+
+  .contact-item-name input,
+  .contact-item-company input,
+  .contact-item-mess textarea {
+    width: 290px;
+  }
+
+  .contact-item-company {
+    padding-top: 0;
+  }
+
+  .contact-form .contact-item-company label {
+    top: 12.6rem;
+  }
+
+  .contact-form .contact-item-mess label {
+    top: 19.9rem;
+  }
+
+  .contact-button {
+    padding-right: 0;
+    text-align: center;
+    float: none;
+  }
+
+  .list-grouped h3 {
+    width: 112px;
+  }
+
+  .list-grouped .list-first,
+  .list-grouped .list-second {
+    padding-right: 0;
+  }
+
+  .list-grouped {
+    padding: 2rem 0 2rem 0rem;
+  }
+
+  .foot-bot p {
+    font-size: 10px;
+  }
+
 }
