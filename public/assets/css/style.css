@@ -1161,7 +1161,6 @@ footer {
 
 }
 
-
 @media screen and (max-width: 1440px) {
   .group-card {
     transform: translateX(-50px);
@@ -1209,6 +1208,103 @@ footer {
   .list-grouped {
     transform: translate(965px, -355px);
   }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .nav-item {
+    padding: 10px 25px;
+  }
+
+  .intro-img img {
+    width: 440px;
+  }
+
+  .xp-group {
+    margin-left: 6rem;
+  }
+
+  .formation-group {
+    padding-left: 0;
+    margin-left: 1rem;
+  }
+
+  .formation-dashed {
+    width: 65px;
+    transform: translateY(-157px);
+  }
+
+  .my-projects-img-security, .my-projects-img-ocoeur, .my-projects-text-security, .my-projects-text-ocoeur {
+    width: 565px;
+  }
+
+  .my-projects-img-security h3, .my-projects-img-ocoeur h3 {
+    width: 18%;
+    transform: translate(235px, -12px);
+  }
+
+  .my-projects-img-ocoeur h3 {
+    transform: translate(248px, 22px);
+  }
+
+  .my-projects-img-security, .my-projects-text-security, .my-projects-text-ocoeur {
+    margin-right: 50px;
+  }
+
+  .my-projects {
+    padding-left: 3rem;
+  }
+
+  .presentation-descr .profil {
+    font-size: 17px;
+  }
+
+  .contact-group .contact-infos {
+    margin-left: 2.5rem;
+  }
+
+  .contact-item-name input, .contact-item-company input {
+    width: 420px;
+  }
+
+  .contact-form .contact-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-item-company {
+    padding-top: 3rem;
+  }
+
+  .contact-item-mess textarea {
+    width: 700px;
+  }
+
+  .contact-form .contact-item-company label {
+    top: 12.5rem;
+    left: 1.3rem;
+  }
+
+  .contact-form .contact-item-mess label {
+    top: 19.8rem;
+  }
+
+  .foot {
+    height: 363px;
+  }
+
+  .foot h1 {
+    transform: translate(100px, -275px);
+  }
+
+  .foot h2 {
+    transform: translate(100px, -185px);
+  }
+
+  .list-grouped {
+    transform: translate(812px, -318px);
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
