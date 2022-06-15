@@ -1137,6 +1137,30 @@ footer {
   }
 }
 
+@media screen and (max-width: 1600px) {
+
+  .formation-group {
+    margin-left: 2rem;
+  }
+
+  .formation-card-first, .formation-card-second, .formation-card-third {
+    width: 410px;
+  }
+
+  .contact-group .contact-infos {
+    margin-left: 2rem;
+  }
+
+  .foot {
+    height: 370px;
+  }
+
+  .list-grouped {
+    transform: translate(1125px, -400px);
+  }
+
+}
+
 
 @media screen and (max-width: 1440px) {
   .group-card {
