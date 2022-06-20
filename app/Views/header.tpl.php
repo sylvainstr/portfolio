@@ -35,7 +35,7 @@
 
   <!-- JS -->
   <script src="<?= $absoluteUrl ?>assets/js/active-scroll.js" defer='true'></script>
-  <!-- <script src="<?= $absoluteUrl ?>assets/js/animation.js" defer='true'></script> -->
+  <script src="<?= $absoluteUrl ?>assets/js/animation.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/skill-card.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/burger-menu.js" defer='true'></script>
 

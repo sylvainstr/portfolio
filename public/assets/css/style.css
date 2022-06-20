@@ -1239,6 +1239,10 @@ footer {
     margin-left: 6rem;
   }
 
+  .introduction h1 {
+    font-size: 45px;
+  }
+
   .intro-img img {
     width: 100%;
   }
@@ -1265,6 +1269,22 @@ footer {
 
   .introduction {
     margin-left: 4rem;
+  }
+
+  .introduction .intro-p {
+    font-size: 28px;
+  }
+
+  .introduction h1 {
+    font-size: 35px;
+  }
+
+  .introduction h2 {
+    font-size: 32px;
+  }
+
+  .intro-hide {
+    display: block;
   }
 
   .nav-item {
@@ -1793,6 +1813,10 @@ footer {
 
   .introduction {
     padding-top: 40px;
+  }
+
+  .intro-hide {
+    display: none;
   }
 
   footer {
