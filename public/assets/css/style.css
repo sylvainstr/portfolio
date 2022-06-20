@@ -1062,7 +1062,7 @@ footer {
   margin-inline: 100px;
   padding-block: 30px;
   bottom: 0%;
-  width: 85%;
+  width: 74%;
 }
 
 .foot-bot p {
@@ -1116,6 +1116,14 @@ footer {
 
 /* Media query */
 
+@media screen and (max-width: 1700px) {
+
+  .foot-bot {
+    width: 85%;
+  }
+
+}
+
 @media screen and (max-width: 1600px) {
 
   .formation-group {
@@ -1148,6 +1156,10 @@ footer {
 
   .contact-group .contact-infos {
     margin-left: 2rem;
+  }
+
+  .foot-bot {
+    width: 87%;
   }
 
 }
@@ -1840,6 +1852,10 @@ footer {
     transform: translateX(0);
   }
 
+  .hide-contact {
+    display: none;
+  }
+
   .hide {
     display: none;
   }
@@ -2429,6 +2445,10 @@ footer {
 
   .list-grouped h3 {
     font-size: 12px;
+  }
+
+  .foot h1 {
+    font-size: 24px;
   }
   
 }

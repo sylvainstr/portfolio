@@ -77,7 +77,7 @@
           <li class="nav-item">
             <a class="nav-linked" aria-current="page" href="#presentation">à propos</a>
           </li>
-          <li class="nav-item hide" id="contact-button">
+          <li class="nav-item hide-contact" id="contact-button">
             <a class="nav-linked" aria-current="page" href="#contact">contact</a>
           </li>
         </ul>
