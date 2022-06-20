@@ -35,7 +35,7 @@
 
   <!-- JS -->
   <script src="<?= $absoluteUrl ?>assets/js/active-scroll.js" defer='true'></script>
-  <script src="<?= $absoluteUrl ?>assets/js/animation.js" defer='true'></script>
+  <!-- <script src="<?= $absoluteUrl ?>assets/js/animation.js" defer='true'></script> -->
   <script src="<?= $absoluteUrl ?>assets/js/skill-card.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/burger-menu.js" defer='true'></script>
 
@@ -44,42 +44,44 @@
 
 <body>
   <header>
-    <nav id="scroll-nav">
+    <div class="wrapper">
+      <nav id="scroll-nav">
 
-      <div class="nav-mob">
+        <div class="nav-mob">
 
-        <button class="burger">
-          <span class="bar"></span>
-        </button>
+          <button class="burger">
+            <span class="bar"></span>
+          </button>
 
-        <div class="contact-nav contact-mob id=" contact-button">
-          <a class="nav-linked" aria-current="page" href="#contact">contact</a>
+          <div class="contact-nav contact-mob id=" contact-button">
+            <a class="nav-linked" aria-current="page" href="#contact">contact</a>
+          </div>
         </div>
-      </div>
 
-      <ul class="main-nav">
-        <li class="nav-item">
-          <a class="nav-linked active" aria-current="page" href="<?php $absoluteUrl ?>/">accueil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-linked" aria-current="page" href="#skills">compétences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-linked" aria-current="page" href="#experience">expérience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-linked" aria-current="page" href="#formations">formations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-linked" aria-current="page" href="#projects">réalisations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-linked" aria-current="page" href="#presentation">à propos</a>
-        </li>
-        <li class="nav-item hide" id="contact-button">
-          <a class="nav-linked" aria-current="page" href="#contact">contact</a>
-        </li>
-      </ul>
+        <ul class="main-nav">
+          <li class="nav-item">
+            <a class="nav-linked active" aria-current="page" href="<?php $absoluteUrl ?>/">accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-linked" aria-current="page" href="#skills">compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-linked" aria-current="page" href="#experience">expérience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-linked" aria-current="page" href="#formations">formations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-linked" aria-current="page" href="#projects">réalisations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-linked" aria-current="page" href="#presentation">à propos</a>
+          </li>
+          <li class="nav-item hide" id="contact-button">
+            <a class="nav-linked" aria-current="page" href="#contact">contact</a>
+          </li>
+        </ul>
 
-    </nav>
+      </nav>
+    </div>
   </header>
