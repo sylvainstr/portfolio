@@ -38,6 +38,7 @@
   <script src="<?= $absoluteUrl ?>assets/js/animation.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/skill-card.js" defer='true'></script>
   <script src="<?= $absoluteUrl ?>assets/js/burger-menu.js" defer='true'></script>
+  <script src="<?= $absoluteUrl ?>assets/js/nav-close.js" defer='true'></script>
 
   <title>Portfolio</title>
 </head>
