@@ -23,11 +23,11 @@
                 <ul>
                   <li>Bootstrap</li>
                   <li>Symfony 4/5</li>
-                  <li>Apprentissage du PHP en POO, <br>&nbsp&nbsp&nbsp&nbsp&nbspavec architecture MVC</li>
+                  <li>Apprentissage du PHP en POO, avec architecture MVC</li>
                   <li>Création d'API avec AJAX</li>
-                  <li>Phase de conception de site : <br>&nbsp&nbsp&nbsp&nbsp&nbspUser stories / Wireframes / MCD / &nbsp&nbsp&nbsp&nbsp&nbspMLD</li>
+                  <li>Phase de conception de site : User stories / Wireframes / MCD / MLD</li>
                   <li>Méthodologie de travail : Sprints</li>
-                  <li>Gestion de projets avec la méthode &nbsp&nbsp&nbsp&nbsp&nbspAGILE</li>
+                  <li>Gestion de projets avec la méthode AGILE</li>
                 </ul>
             </div>
             <div class="skill-card-inside-sm">
@@ -36,11 +36,11 @@
                 <ul>
                   <li>Bootstrap</li>
                   <li>Symfony 4/5</li>
-                  <li>Apprentissage du PHP en<br> &nbsp&nbsp&nbsp&nbsp&nbspPOO, avec architecture MVC</li>
+                  <li>Apprentissage du PHP en POO, avec architecture MVC</li>
                   <li>Création d'API avec AJAX</li>
-                  <li>Phase de conception de site : <br>&nbsp&nbsp&nbsp&nbsp&nbspUser stories / Wireframes / &nbsp&nbsp&nbsp&nbsp&nbspMCD / MLD</li>
-                  <li>Méthodologie de travail : &nbsp&nbsp&nbsp&nbsp&nbspSprints</li>
-                  <li>Gestion de projets avec la &nbsp&nbsp&nbsp&nbsp&nbspméthode AGILE</li>
+                  <li>Phase de conception de site : User stories / Wireframes / MCD / MLD</li>
+                  <li>Méthodologie de travail : Sprints</li>
+                  <li>Gestion de projets avec la méthode AGILE</li>
                 </ul>
             </div>
           </div>

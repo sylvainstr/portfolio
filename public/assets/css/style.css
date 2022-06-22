@@ -248,8 +248,14 @@ section.formations h1 {
   line-height: 30px;
   color: #332800;
   list-style: square;
-  list-style-position: inside;
   padding-bottom: 20px;
+  list-style-position: outside;
+}
+
+.skills .skill-card-first ul,
+.skills .skill-card-second ul,
+.skills .skill-card-third ul {
+  padding-left: 1rem;
 }
 
 /* Expérience professionnelle */
