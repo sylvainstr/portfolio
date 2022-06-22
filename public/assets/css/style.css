@@ -1542,6 +1542,7 @@ footer {
   .skill-card-first, .skill-card-second, .skill-card-third {
     height: auto;
     padding-bottom: 2rem;
+    min-width: 400px;
   }
 
 
@@ -2099,7 +2100,7 @@ footer {
   .skill-card-second,
   .skill-card-third {
     min-width: 350px;
-    margin-inline: -110px;
+    margin-inline: 0;
   }
 
   section.skills h1, section.formations h1 {
@@ -2131,6 +2132,26 @@ footer {
   .my-projects-img-ocoeur h3 {
     width: 28%;
     transform: translate(125px, 110px);
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  
+  .skill-card-first,
+  .skill-card-second,
+  .skill-card-third {
+    margin-inline: -108px;
+  }
+
+}
+
+@media screen and (max-width: 545px) {
+  
+  .skill-card-first,
+  .skill-card-second,
+  .skill-card-third {
+    margin-inline: -45px;
   }
 
 }
