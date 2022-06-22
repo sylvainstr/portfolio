@@ -3,7 +3,6 @@ RewriteCond %{HTTP_HOST} ^sylvainsainteromane\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.sylvainsainteromane\.com$
 RewriteRule ^(.*)$ "https\:\/\/sylvainsainteromane\.com\/$1" [R=301,L]
 
-
 # dynamically setup base URI
 RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
 RewriteRule ^(.*) - [E=BASE_URI:%1]
