@@ -23,12 +23,12 @@
           </div>
         </a>
 
-        <a class="contact-infos-item" href="https://www.google.fr/maps/place/65+Mesturel,+31620+Cepet/@43.7399015,1.4267281,17z/data=!3m1!4b1!4m5!3m4!1s0x12aea6deb4c29545:0x7daac8a146c8ef45!8m2!3d43.7399015!4d1.4289168" target="_blank" rel="noreferrer">
+        <a class="contact-infos-item" href="https://www.google.fr/maps/place/31620+Cepet/@43.7461161,1.4190849,14z/data=!4m5!3m4!1s0x12aea725068b67b1:0xc17de600a6905c0b!8m2!3d43.750797!4d1.4322" target="_blank" rel="noreferrer">
           <div class="contact-img">
             <img src="<?= $absoluteUrl ?>assets/images/adress.png" alt="image d'une adresse">
           </div>
           <div class="contact-value">
-            65 impasse de Mesturel,<br>31620 Cépet
+            31620 Cépet
           </div>
         </a>
 
