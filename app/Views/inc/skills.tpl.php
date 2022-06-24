@@ -24,7 +24,7 @@
                   <li>Bootstrap</li>
                   <li>Symfony 4/5</li>
                   <li>Apprentissage du PHP en POO, avec architecture MVC</li>
-                  <li>Création d'API avec AJAX</li>
+                  <li>Création d'API</li>
                   <li>Phase de conception de site : User stories / Wireframes / MCD / MLD</li>
                   <li>Méthodologie de travail : Sprints</li>
                   <li>Gestion de projets avec la méthode AGILE</li>

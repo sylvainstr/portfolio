@@ -62,7 +62,7 @@
       </div>
 
       <div class="contact-form">
-        <form action="mail.php" method="post">
+        <form action="/" method="post">
           <div class="contact-group">
             <div class="contact-item-name">
               <label for="name">Nom et prénom</label>

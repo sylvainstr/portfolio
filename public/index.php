@@ -11,6 +11,12 @@ $router->map('GET', '/', [
   'method' => 'home',
 ], 'main-home');
 
+$router->map('POST', '/', [
+  'controller' => 'MainController',
+  'method' => 'contact',
+], 'contact');
+
+
 // match() va comparer la variable $_SERVER['REQUEST_URI'] avec les routes déclarées
 // Si match() trouve un match (correspondance) entre les deux, on obtient un array
 // Sinon, on obtient la valeur false
