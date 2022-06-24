@@ -1,6 +1,6 @@
 const animation = () => {
 
-  const width = window.outerWidth;
+  const width = window.innerWidth;
 
   if (width > 700) {
   

@@ -1,24 +1,29 @@
 const navClose = () => {
 
-  const width = window.outerWidth;
+  
+  const navbarOpen = document.querySelector('.nav-mob.show-nav');
+  const navItems = document.querySelectorAll(".nav-item");
 
-  if (width < 800) {
+ 
 
     const navbar = document.querySelector('.nav-mob');
     const burger = document.querySelector('.burger');
-    const navItems = document.querySelectorAll(".nav-item");
     const mainNav = document.querySelector(".main-nav");
 
     navItems.forEach(item => {
+
       item.addEventListener('click', (e) => {
-        
-        mainNav.classList.toggle('show-nav');
-        navbar.classList.toggle('show-nav');
-        
+
+        var width = window.innerWidth;
+        console.log(width);
+
+        if (width < 800) {
+          mainNav.classList.toggle('show-nav');
+          navbar.classList.toggle('show-nav');
+        }
       })
     })
-    
-  }
+  
 }
 
 navClose();

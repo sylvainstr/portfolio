@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="<?php echo $absoluteUrl ?>assets/css/style.css">
+  <link rel="stylesheet" href="<?php echo $absoluteUrl ?>assets/css/style.css?20220624">
 
 
   <!-- Font style -->
@@ -62,7 +62,7 @@
 
         <ul class="main-nav">
           <li class="nav-item">
-            <a class="nav-linked active" aria-current="page" href="<?php $absoluteUrl ?>/">accueil</a>
+            <a class="nav-linked active" aria-current="page" href="/#introduction">accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-linked" aria-current="page" href="#skills">compétences</a>

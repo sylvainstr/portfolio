@@ -6,8 +6,6 @@ var app = {
     formContact.addEventListener("submit", function (e) {
 
       e.preventDefault();
-      console.log("YOUPI");
-
       var data = this;
 
       fetch('/', {
@@ -17,7 +15,6 @@ var app = {
 
       .then(res=>res.text())
       .then(function(result) {
-        console.log('result : ' + result);
 
         if (result === "OK") {
 

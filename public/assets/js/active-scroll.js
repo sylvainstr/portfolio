@@ -12,12 +12,25 @@ if (window.outerWidth > 800) {
       if (top >= offset && top < offset + height) {
         navLinks.forEach((links) => {
           links.classList.remove("active");
-          document.querySelector(
+
+          const nameId = document.querySelector(
             "header nav a[href*=" + id + "]"
-          ).style.transition = "ease-in-out 0.5s";
-          document
-            .querySelector("header nav a[href*=" + id + "]")
-            .classList.add("active");
+          );
+
+          if (nameId != null) {          
+            nameId.style.transition = "ease-in-out 0.5s";
+          } else {
+            console.log(id);
+          }
+
+          const containName = document.querySelector("header nav a[href*=" + id + "]");
+
+          if (containName != null) {
+            containName.classList.add("active");
+          } else {
+            console.log(id);
+          }
+
         });
       }
     });
