@@ -61,7 +61,15 @@
 
       </div>
 
+      
       <div class="contact-form">
+        <div class="message-confirmation">
+          <h3>Bonjour <b></b>, votre message a bien été envoyé !!</h3>
+        </div>
+  
+        <div class="message-error">
+          <h3>Désolé une erreur est survenue, veuillez réessayer ultérieurement.</h3>
+        </div>
         <form action="/#contact" method="post">
           <div class="contact-group">
             <div class="contact-item-name">

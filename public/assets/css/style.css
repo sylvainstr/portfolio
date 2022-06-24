@@ -791,6 +791,14 @@ section.presentation {
 
 /* Contact */
 
+.message-confirmation {
+  display: none;
+}
+
+.message-error {
+  display: none;
+}
+
 section.contact {
   padding-top: 8rem;
 }
