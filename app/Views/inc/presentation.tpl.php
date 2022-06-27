@@ -1,4 +1,4 @@
-<section class="presentation" id="presentation">
+<section class="presentation" id="presentation" data-name="presentation">
   <h1 class="presentation-title">À propos</h1>
   <div class="line-xs"></div>
 

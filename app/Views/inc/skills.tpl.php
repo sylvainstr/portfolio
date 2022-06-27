@@ -1,4 +1,4 @@
-<section class="skills" id="skills">
+<section class="skills" id="skills" data-name="skills">
         <h1>Compétences techniques</h1>
         <div class="line"></div>
         <div class="group-card">

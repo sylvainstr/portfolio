@@ -15,7 +15,6 @@ const navClose = () => {
       item.addEventListener('click', (e) => {
 
         var width = window.innerWidth;
-        console.log(width);
 
         if (width < 800) {
           mainNav.classList.toggle('show-nav');

@@ -1,4 +1,4 @@
-<section class="contact" id="contact">
+<section class="contact" id="contact" data-name="contact">
   <h1 class="contact-title">Envie de me contacter ?</h1>
   <div class="line-md"></div>
 

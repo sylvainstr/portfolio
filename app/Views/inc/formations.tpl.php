@@ -1,4 +1,4 @@
-<section class="formation" id="formations">
+<section class="formation" id="formations" data-name="formations">
   <h1 class="formation-title">Diplômes et formations</h1>
   <div class="line"></div>
 

@@ -1,4 +1,4 @@
-<section class="projects" id="projects">
+<section class="projects" id="projects" data-name="projects">
   <h1 class="projects-title">Réalisations</h1>
   <div class="line-sm"></div>
 
