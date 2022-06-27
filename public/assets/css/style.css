@@ -792,7 +792,7 @@ section.presentation {
 /* Contact */
 
 .message-confirmation {
-  display: block;
+  display: none;
   margin-inline: auto;
   font-family: 'Nunito';
   font-style: normal;
