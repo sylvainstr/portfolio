@@ -55,7 +55,7 @@
             <span class="bar"></span>
           </button>
 
-          <div class="contact-nav contact-mob id=" contact-button">
+          <div class="contact-nav contact-mob" id=" contact-button">
             <a class="nav-linked" aria-current="page" href="#contact">contact</a>
           </div>
         </div>

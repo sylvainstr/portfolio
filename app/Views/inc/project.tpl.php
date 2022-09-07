@@ -49,6 +49,28 @@
       </div>
     </div>
 
+    <div class="my-projects">
+      <div class="my-projects-img-barhome">
+        <img class="barhome" src="<?= $absoluteUrl ?>assets/images/cocktail.png" alt="image du site barhome">
+        <h3><a href="https://www.barhome.fr/" target="_blank">Voir le site</a></h3>
+      </div>
+
+      <div class="my-projects-text-barhome scroller-right">
+        <h1>Bar Home</h1>
+        <ul>
+          <li>Projet réalisé à titre personnel (Septembre 2022).</li>
+          <li>Conception de l'application <span class="bold">Bar Home</span>, elle est destinée à être utilisée pour créer un <span class="bold">Bar</span> dans le but de le partager de manière digitale à ses convives ou invités.</li>
+          <li>Facile d'utilisation, il suffit de s'enregistrer pour démarrer l'expérience.</li>
+          <li>Une partie personnalisation du <span class="bold">Bar</span> a été développée afin d'ajouter/modifier/supprimer ses différentes boissons dans la <span class="bold">BDD</span>.</li>
+          <li>La partie Back-end a été réalisée avec le framework <span class="bold">PHP Symfony</span> et le modèle <span class="bold">MVC</span>.</li>
+          <li>L’<span class="bold">ORM Doctrine</span> a été utilisé pour la gestion de la base de données.</li>
+          <li>La partie Front-end a été réalisée en <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">CSS</span>.</li>
+          <li>L'application est <span class="bold">Responsive</span> (Desktop / Tablet / Mobile).</li>
+          <li>Déploiement de l'application sur <span class="bold">o2switch</span>.</li>
+        </ul>
+      </div>
+    </div>
+
   </div>
 
 </section>

@@ -112,7 +112,8 @@ const animation = () => {
     const projetTxt1 = document.querySelector('.my-projects-text-security');
     const projetTxt2 = document.querySelector('.my-projects-text-ocoeur');
     const projetImg2 = document.querySelector('.my-projects-img-ocoeur');
-
+    const projetTxt3 = document.querySelector('.my-projects-text-barhome');
+    const projetImg3 = document.querySelector('.my-projects-img-barhome');
 
     let tlProjectImg1 = gsap.timeline({
       scrollTrigger: {
@@ -142,8 +143,24 @@ const animation = () => {
     });
     tlProjectImg2.from(projetImg2, {x: 100, opacity: 0, duration: 2})
 
+    let tlProjectImg3 = gsap.timeline({
+      scrollTrigger: {
+        trigger: projetImg3,
+      }
+    });
+    tlProjectImg3.from(projetImg3, {x: -100, opacity: 0, duration: 2})
+
+    let tlProjectText3 = gsap.timeline({
+      scrollTrigger: {
+        trigger: projetTxt3,
+      }
+    });
+    tlProjectText3.from(projetTxt3, {x: 100, opacity: 0, duration: 2})
+
   }
 }
+
+
 
 animation();
 
