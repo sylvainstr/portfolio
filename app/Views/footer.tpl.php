@@ -9,10 +9,10 @@
         <h3>Ce que je sais faire</h3>
         <ul>
           <li>
-            <a aria-current="page" href="#skills">Compétences</a>
+            <a aria-current="page" href="<?php echo $absoluteUrl ?>cv">Curriculum Vitae</a>
           </li>
           <li>
-            <a aria-current="page" href="#projects">Réalisations</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>">Réalisations</a>
           </li>
         </ul>
       </div>
@@ -21,13 +21,13 @@
         <h3>Qui je suis</h3>
         <ul>
           <li>
-            <a aria-current="page" href="#experience">Expérience</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>cv">Expérience</a>
           </li>
           <li>
-            <a aria-current="page" href="#formations">Formations</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>cv">Formations</a>
           </li>
           <li>
-            <a aria-current="page" href="#presentation">À propos</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>">À propos</a>
           </li>
         </ul>
       </div>

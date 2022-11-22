@@ -16,6 +16,11 @@ $router->map('POST', '/', [
   'method' => 'contact',
 ], 'contact');
 
+$router->map('GET', '/cv', [
+  'controller' => 'MainController',
+  'method' => 'cv',
+], 'main-cv');
+
 
 // match() va comparer la variable $_SERVER['REQUEST_URI'] avec les routes déclarées
 // Si match() trouve un match (correspondance) entre les deux, on obtient un array

@@ -1014,8 +1014,29 @@ textarea[type="text"] {
   text-transform: uppercase;
 }
 
+/* CV */
 
+.dl-cv {
+  text-align: center;
+  padding-top: 8rem;
+}
 
+.dl-cv-item {
+  background-color: #FFCE1F;
+  color: #332800;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.dl-cv-item:hover {
+    font-weight: 700;
+    transform: scale(1.02);
+}
 
 /* Footer */
 

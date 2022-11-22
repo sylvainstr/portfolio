@@ -1,5 +1,3 @@
-
-<div class="wrapper">  
   <section class="intro" id="introduction" data-name="introduction">
     <div class="introduction">
       <p class="intro-p">Hello, je suis</p>
@@ -17,11 +15,8 @@
   </section>
 
 <?php
-require __DIR__ . '/skills.tpl.php';
-require __DIR__ . '/experience.tpl.php';
-require __DIR__ . '/formations.tpl.php';
+require __DIR__ . '/job.tpl.php';
 require __DIR__ . '/project.tpl.php';
-require __DIR__ . '/presentation.tpl.php';
 require __DIR__ . '/contact.tpl.php';
-
+require __DIR__ . '/presentation.tpl.php';
 ?>

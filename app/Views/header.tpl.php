@@ -64,7 +64,7 @@
           <li class="nav-item">
             <a class="nav-linked active" aria-current="page" href="#introduction">accueil</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-linked" aria-current="page" href="#skills">compétences</a>
           </li>
           <li class="nav-item">
@@ -72,18 +72,23 @@
           </li>
           <li class="nav-item">
             <a class="nav-linked" aria-current="page" href="#formations">formations</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-linked" aria-current="page" href="#projects">préstations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="#projects">réalisations</a>
+            <a class="nav-linked" aria-current="page" href="#job">réalisations</a>
           </li>
           <li class="nav-item">
             <a class="nav-linked" aria-current="page" href="#presentation">à propos</a>
           </li>
-          <li class="nav-item hide-contact" id="contact-button">
-            <a class="nav-linked" aria-current="page" href="#contact">contact</a>
-          </li>
+          <a class="nav-linked" aria-current="page" href="#contact">
+            <li class="nav-item hide-contact" id="contact-button">contact</li>
+          </a>
         </ul>
 
       </nav>
     </div>
   </header>
+  
+  <div class="wrapper">

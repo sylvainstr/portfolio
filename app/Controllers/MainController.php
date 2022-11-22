@@ -13,6 +13,11 @@ class MainController extends CoreController
   {
       $this->show('home');
   }
+
+  public function cv()
+  {
+      $this->show('cv');
+  }
      
   public function contact ()
   {
