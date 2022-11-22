@@ -62,27 +62,18 @@
 
         <ul class="main-nav">
           <li class="nav-item">
-            <a class="nav-linked active" aria-current="page" href="#introduction">accueil</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="#skills">compétences</a>
+            <a class="nav-linked active" aria-current="page" href="<?= $absoluteUrl ?>#introduction">accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="#experience">expérience</a>
+            <a class="nav-linked" aria-current="page" href="<?= $absoluteUrl ?>#job">préstations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="#formations">formations</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="#projects">préstations</a>
+            <a class="nav-linked" aria-current="page" href="<?= $absoluteUrl ?>#projects">réalisations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="#job">réalisations</a>
+            <a class="nav-linked" aria-current="page" href="<?= $absoluteUrl ?>#presentation">à propos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="#presentation">à propos</a>
-          </li>
-          <a class="nav-linked" aria-current="page" href="#contact">
+          <a class="nav-linked" aria-current="page" href="<?= $absoluteUrl ?>#contact">
             <li class="nav-item hide-contact" id="contact-button">contact</li>
           </a>
         </ul>

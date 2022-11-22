@@ -12,7 +12,7 @@
             <a aria-current="page" href="<?php echo $absoluteUrl ?>cv">Curriculum Vitae</a>
           </li>
           <li>
-            <a aria-current="page" href="<?= $absoluteUrl ?>">Réalisations</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>#projects">Réalisations</a>
           </li>
         </ul>
       </div>
@@ -21,13 +21,13 @@
         <h3>Qui je suis</h3>
         <ul>
           <li>
-            <a aria-current="page" href="<?= $absoluteUrl ?>cv">Expérience</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>cv#experience">Expérience</a>
           </li>
           <li>
-            <a aria-current="page" href="<?= $absoluteUrl ?>cv">Formations</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>cv#formations">Formations</a>
           </li>
           <li>
-            <a aria-current="page" href="<?= $absoluteUrl ?>">À propos</a>
+            <a aria-current="page" href="<?= $absoluteUrl ?>#presentation"">À propos</a>
           </li>
         </ul>
       </div>

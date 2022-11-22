@@ -168,13 +168,15 @@ section.cgv {
   display: flex;
 }
 
-section.skills {
+section.skills,
+section.job {
   padding-left: 100px;
   padding-top: 8rem;
 }
 
 section.skills h1,
 section.formations h1,
+section.job h1,
 section.legal-notice h1,
 section.cgv h1 {
   font-family: 'Biryani';
@@ -1271,6 +1273,11 @@ footer {
     width: 85%;
   }
 
+  .cgv,
+  .legal-notice {
+    padding-inline: 8rem;
+  }
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -1436,6 +1443,11 @@ footer {
 
   .list-grouped li {
     font-size: 16px;
+  }
+
+  .cgv,
+  .legal-notice {
+    padding-inline: 6rem;
   }
 
 }
@@ -1876,6 +1888,11 @@ footer {
     background: url(/assets/images/footer.svg) no-repeat;
     background-size: cover;
   }
+
+  .cgv,
+  .legal-notice {
+    padding-inline: 4rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -2013,6 +2030,15 @@ footer {
   .message-confirmation,
   .message-error {
     padding-top: 5rem;
+  }
+
+  section.cgv .cgv-text p,
+  section.legal-notice .legal-text p {
+    font-size: 18px;
+  }
+
+  section.cgv li::marker {
+    font-size: 20px;
   }
 
 }
@@ -2161,7 +2187,8 @@ footer {
     padding-top: 6rem;
   }
 
-  section.skills {
+  section.skills,
+  section.job {
     padding-left: 50px;
     padding-top: 6rem;
   }
@@ -2283,6 +2310,11 @@ footer {
     padding-right: 3rem;
   }
 
+  .cgv,
+  .legal-notice {
+    padding-inline: 2rem;
+  }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -2296,6 +2328,7 @@ footer {
 
   section.skills h1,
   section.formations h1,
+  section.job h1,
   section.legal-notice h1,
   section.cgv h1  {
     font-size: 26px;
@@ -2368,6 +2401,28 @@ footer {
     font-size: 16px;
   }
 
+  .cgv,
+  .legal-notice {
+    padding-inline: 1rem;
+  }
+
+  section.legal-notice h2, section.cgv h2 {
+    font-size: 22px;
+  }
+
+  section.cgv .cgv-text p, 
+  section.legal-notice .legal-text p {
+    font-size: 16px;
+  }
+
+  section.cgv ul {
+    padding-left: 2rem;
+  }
+
+  section.cgv li::marker {
+    font-size: 18px;
+}
+
 }
 
 @media screen and (max-width: 425px) {
@@ -2398,7 +2453,8 @@ footer {
     margin-left: 27px;
   }
 
-  section.skills {
+  section.skills,
+  section.job {
     padding-left: 30px;
   }
 
@@ -2414,6 +2470,7 @@ footer {
   }
 
   section.skills h1,
+  section.job h1,
   section.legal-notice h1,
   section.cgv h1 {
     font-size: 25px;
@@ -2601,6 +2658,21 @@ footer {
     transform: translate(130px, 32px);
   }
 
+  .dl-cv-item {
+    font-size: 18px;
+  }
+
+  .foot-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  section.cgv ul {
+    padding-left: 1rem;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -2625,6 +2697,7 @@ footer {
   section.skills h1,
   section.formations h1,
   section.experience h1,
+  section.job h1,
   section.legal-notice h1,
   section.cgv h1,
   .formation h1,
@@ -2723,7 +2796,17 @@ footer {
   .message-confirmation,
   .message-error {
     font-size: 12px;
-  } 
+  }
+
+  section.legal-notice h2, 
+  section.cgv h2 {
+    font-size: 20px;
+  }
+
+  section.cgv .cgv-text p, 
+  section.legal-notice .legal-text p {
+    font-size: 15px;
+  }
   
 }
 
@@ -2752,6 +2835,7 @@ footer {
   section.skills h1,
   section.formations h1,
   section.experience h1,
+  section.job h1,
   section.legal-notice h1,
   section.cgv h1,
   .formation h1,

@@ -67,7 +67,7 @@
   </div>
 
   <div class="legal-text">
-    <p>Pour plus d'informations sur la façon dont nous traitons vos données (type de données, finalité, destinataire...), lisez notre <a class="link-legal" href="https://sylvainsainteromane.com/mentions-legales">https://sylvainsainteromane.com/mentions-legales</a>.</p>
+    <p>Pour plus d'informations sur la façon dont nous traitons vos données (type de données, finalité, destinataire...), lisez notre <a class="link-legal" href="https://sylvainsainteromane.com/mentions-legales" >https://sylvainsainteromane.com/mentions-legales</a>.</p>
   </div>
 
   <h2>6 - Droit applicable et attribution de juridiction</h2>
