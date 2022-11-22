@@ -35,9 +35,17 @@
 
   </div>
 
-  <div class="foot-bot">
-    <p>Copyright © 2022 - Sylvain Sainte Romane</p>
-  </div>
+  <ul class="foot-bot">
+    <li>
+      <p>Copyright © 2022 - Sylvain Sainte Romane</p>
+    </li>
+    <li>
+      <a aria-current="page" href="<?= $absoluteUrl ?>cgv">CGV</a>
+    </li>
+    <li>
+      <a aria-current="page" href="<?= $absoluteUrl ?>mentions-legales">Mentions légales</a>
+    </li>
+  </ul>
 
 </footer>
 
