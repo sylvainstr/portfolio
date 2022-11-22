@@ -18,6 +18,16 @@ class MainController extends CoreController
   {
       $this->show('cv');
   }
+
+  public function cgv()
+  {
+      $this->show('cgv');
+  }
+
+  public function legalNotice()
+  {
+      $this->show('legal-notice');
+  }
      
   public function contact ()
   {

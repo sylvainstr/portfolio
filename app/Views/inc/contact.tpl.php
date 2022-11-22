@@ -19,7 +19,7 @@
             <img src="<?= $absoluteUrl ?>assets/images/email.png" alt="image d'un email">
           </div>
           <div class="contact-value">
-            sylvain.sainteromane@gmail.com
+          contact@sylvainsainteromane.com
           </div>
         </a>
 

@@ -21,6 +21,15 @@ $router->map('GET', '/cv', [
   'method' => 'cv',
 ], 'main-cv');
 
+$router->map('GET', '/cgv', [
+  'controller' => 'MainController',
+  'method' => 'cgv',
+], 'main-cgv');
+
+$router->map('GET', '/mentions-legales', [
+  'controller' => 'MainController',
+  'method' => 'legalNotice',
+], 'main-legal-notice');
 
 // match() va comparer la variable $_SERVER['REQUEST_URI'] avec les routes déclarées
 // Si match() trouve un match (correspondance) entre les deux, on obtient un array

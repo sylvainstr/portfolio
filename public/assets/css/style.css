@@ -159,8 +159,8 @@ section.intro {
   display: none;
 }
 
-section.skills {
-  padding-left: 100px;
+section.legal-notice,
+section.cgv {
   padding-top: 8rem;
 }
 
@@ -168,8 +168,15 @@ section.skills {
   display: flex;
 }
 
+section.skills {
+  padding-left: 100px;
+  padding-top: 8rem;
+}
+
 section.skills h1,
-section.formations h1 {
+section.formations h1,
+section.legal-notice h1,
+section.cgv h1 {
   font-family: 'Biryani';
   font-style: normal;
   font-weight: 700;
@@ -705,9 +712,14 @@ section.presentation {
   margin-left: 100px;
 }
 
-.line-xs {
+.line-xs,
+.line-xxs  {
   border-bottom: #FFCE1F solid 4px;
   width: 86px;
+}
+
+.line-xxs {
+  width: 45px;
 }
 
 .presentation-group {
@@ -1036,6 +1048,60 @@ textarea[type="text"] {
 .dl-cv-item:hover {
     font-weight: 700;
     transform: scale(1.02);
+}
+
+section.legal-notice h2,
+section.cgv h2 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 24px;
+  color: #332800;
+}
+
+section.cgv h3 {
+  padding-top: 1rem;
+  font-size: 22px;
+  color: #332800;
+}
+
+section.cgv ul {
+  padding-left: 3rem;
+  color: #332800;
+  width: 75%;
+}
+
+section.cgv li::marker 
+{
+    font-size: 25px;
+}
+
+.legal-bold,
+.cgv-bold {
+  font-weight: bold;
+}
+
+section.legal-notice .legal-text p,
+section.cgv .cgv-text p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 155%;
+  color: #5F5C4E;
+  padding-top: 1rem;
+}
+
+section.legal-notice .legal-text a,
+section.cgv .cgv-text a {
+  text-decoration: none;
+  color: #332800;
+  font-weight: 600;
+}
+
+section.legal-notice .legal-text a:hover,
+section.cgv .cgv-text a:hover {
+  color: #FFCE1F;
+  font-weight: 700;
 }
 
 /* Footer */
@@ -2215,7 +2281,10 @@ footer {
     margin-inline: 0;
   }
 
-  section.skills h1, section.formations h1 {
+  section.skills h1,
+  section.formations h1,
+  section.legal-notice h1,
+  section.cgv h1  {
     font-size: 26px;
   }
 
@@ -2331,7 +2400,9 @@ footer {
     margin-inline: -28px;
   }
 
-  section.skills h1 {
+  section.skills h1,
+  section.legal-notice h1,
+  section.cgv h1 {
     font-size: 25px;
   }
 
@@ -2541,6 +2612,8 @@ footer {
   section.skills h1,
   section.formations h1,
   section.experience h1,
+  section.legal-notice h1,
+  section.cgv h1,
   .formation h1,
   h1.projects-title,
   .presentation .presentation-title,
@@ -2666,6 +2739,8 @@ footer {
   section.skills h1,
   section.formations h1,
   section.experience h1,
+  section.legal-notice h1,
+  section.cgv h1,
   .formation h1,
   h1.projects-title,
   .presentation .presentation-title,
