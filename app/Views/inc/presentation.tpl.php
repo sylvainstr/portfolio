@@ -9,11 +9,11 @@
     <div class="presentation-descr">
       <h2>Envie d'en savoir un peu plus ?</h2>
       <p>
-        J'ai suivi une formation de développeur web fullstack d'une durée de 6 mois au sein de l'école O'clock pour découvrir un environnement qui m'a toujours attiré.
-      <br>J'ai osé me lancer dans ce nouveau défi afin de pouvoir travailler dans un secteur qui me plaît.
+        J'ai créé une entreprise de création de sites internet, je réalise des prestations sur mesure.
+        <br>Je m'épanouis pleinement dans mon travail, j'apprends de nouvelles notions chaque jour, j'aime le travail en équipe et j'ai besoin de challenges.
       </p>
       <p class="profil">
-      <span class="profil-word">&nbsp;Profil&nbsp;</span>dynamique="💥"&nbsp; autonome="🤖"&nbsp; sociable="🍻"&nbsp; travail d'équipe="🤝"&nbsp; curieux="🧐"&nbsp; <span class="slash">/</span>
+        <span class="profil-word">&nbsp;Profil&nbsp;</span>dynamique="💥"&nbsp; autonome="🤖"&nbsp; sociable="🍻"&nbsp; travail d'équipe="🤝"&nbsp; curieux="🧐"&nbsp; <span class="slash">/</span>
       </p>
       <div class="hobbies-grouped">
         <h2 class="hobbies-title">Mes centres d’intérêt</h2>
@@ -37,12 +37,12 @@
           </div>
           <div class="hobbies-title">
             <h3>Sports (Rugby, Tennis)</h3>
-          </div>   
-        </div>   
-    </div>
+          </div>
+        </div>
+      </div>
 
-    
-  </div>
+
+    </div>
 
 
 </section>

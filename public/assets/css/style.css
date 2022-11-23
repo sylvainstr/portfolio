@@ -168,9 +168,12 @@ section.cgv {
   display: flex;
 }
 
-section.skills,
-section.job {
+section.skills {
   padding-left: 100px;
+  padding-top: 8rem;
+}
+
+section.job {
   padding-top: 8rem;
 }
 
@@ -1028,6 +1031,121 @@ textarea[type="text"] {
   text-transform: uppercase;
 }
 
+/* Prestation */
+
+.presta-group {
+  padding-left: 100px;
+}
+
+.presta-contact p {
+  display: flex;
+  flex-direction: column;
+}
+
+.presta-contact .presta-job-text p {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.contact-btn {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.job-text {
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  max-width: 950px;
+  padding-right: 2rem;
+}
+
+.line-xxl {
+  border-bottom: #FFCE1F solid 4px;
+  width: 450px;
+  margin: auto;
+}
+
+
+.job h3 {
+  font-family: 'Biryani';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 49px;
+  color: #332800;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.job-text p,
+.job-text-list p,
+.job-text-envol p,
+.presta-job-text p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 155%;
+  color: #5F5C4E;
+}
+
+.job-text-envol p {
+  max-width: 950px;
+}
+
+.job-text-envol-group {
+  padding-block: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presta-job-text p {
+  padding-bottom: 2rem;
+}
+
+.job-group h4 {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.job-text-envol {
+  padding-top: 3rem;
+}
+
+.job-group-global {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.job-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-job {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.presta-card-job {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-job .job-text-list {
+  max-width: 300px;
+}
+
+.strweb-img img {
+  width: 100%;
+}
+
 /* CV */
 
 .dl-cv {
@@ -1035,7 +1153,8 @@ textarea[type="text"] {
   padding-top: 8rem;
 }
 
-.dl-cv-item {
+.dl-cv-item,
+.contact-btn-item {
   background-color: #FFCE1F;
   color: #332800;
   font-size: 25px;
@@ -1047,7 +1166,12 @@ textarea[type="text"] {
   padding: 10px 30px;
 }
 
-.dl-cv-item:hover {
+.contact-btn-item {
+  font-size: 18px;
+}
+
+.dl-cv-item:hover,
+.contact-btn-item:hover {
     font-weight: 700;
     transform: scale(1.02);
 }
@@ -1078,7 +1202,8 @@ section.cgv li::marker
 }
 
 .legal-bold,
-.cgv-bold {
+.cgv-bold,
+.envol-bold {
   font-weight: bold;
 }
 
@@ -1094,14 +1219,16 @@ section.cgv .cgv-text p {
 }
 
 section.legal-notice .legal-text a,
-section.cgv .cgv-text a {
+section.cgv .cgv-text a,
+.job-text-envol a {
   text-decoration: none;
   color: #332800;
   font-weight: 600;
 }
 
 section.legal-notice .legal-text a:hover,
-section.cgv .cgv-text a:hover {
+section.cgv .cgv-text a:hover,
+.job-text-envol a:hover {
   color: #FFCE1F;
   font-weight: 700;
 }
@@ -1449,7 +1576,6 @@ footer {
   .legal-notice {
     padding-inline: 6rem;
   }
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -1687,6 +1813,9 @@ footer {
     transform: translate(348px, 62px);
   }
 
+  .job-group-global {
+    padding-inline: 1rem;
+  }
 
 }
 
@@ -1893,6 +2022,19 @@ footer {
   .legal-notice {
     padding-inline: 4rem;
   }
+
+  .presta-group {
+    padding-inline: 50px;
+  }
+
+  .job-text-envol p {
+    max-width: 750px;
+  }
+
+  .job-group-global {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -2039,6 +2181,10 @@ footer {
 
   section.cgv li::marker {
     font-size: 20px;
+  }
+
+  .job-text-envol p {
+    max-width: 550px;
   }
 
 }
@@ -2315,6 +2461,14 @@ footer {
     padding-inline: 2rem;
   }
 
+  section.job h1 {
+    font-size: 22px;
+  }
+
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p {
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -2375,6 +2529,17 @@ footer {
     transform: translate(125px, 75px);
   }
 
+  .presta-group {
+    padding-inline: 1rem;
+  }
+
+  .job h3 {
+    font-size: 22px;
+  }
+
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p {
+    font-size: 16px;
+  }
 
 }
 
@@ -2384,6 +2549,10 @@ footer {
   .skill-card-second,
   .skill-card-third {
     margin-inline: -108px;
+  }
+
+  .strweb-img img {
+    width: 100%;
   }
 
 }
@@ -2421,7 +2590,15 @@ footer {
 
   section.cgv li::marker {
     font-size: 18px;
-}
+  }
+
+  .job h3 {
+    font-size: 16px;
+  }
+  
+  .line-xxl {
+    width: 280px;
+  }
 
 }
 
@@ -2673,6 +2850,18 @@ footer {
     padding-left: 1rem;
   }
 
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p {
+    font-size: 16px;
+  }
+
+  .presta-contact .presta-job-text p {
+    font-size: 26px;
+  }
+
+  .contact-btn-item {
+    font-size: 16px;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -2806,6 +2995,10 @@ footer {
   section.cgv .cgv-text p, 
   section.legal-notice .legal-text p {
     font-size: 15px;
+  }
+
+  .line-xxl {
+    width: 200px;
   }
   
 }

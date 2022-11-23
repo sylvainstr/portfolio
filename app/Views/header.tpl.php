@@ -65,7 +65,7 @@
             <a class="nav-linked active" aria-current="page" href="<?= $absoluteUrl ?>#introduction">accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-linked" aria-current="page" href="<?= $absoluteUrl ?>#job">préstations</a>
+            <a class="nav-linked" aria-current="page" href="<?= $absoluteUrl ?>#job">prestations</a>
           </li>
           <li class="nav-item">
             <a class="nav-linked" aria-current="page" href="<?= $absoluteUrl ?>#projects">réalisations</a>
