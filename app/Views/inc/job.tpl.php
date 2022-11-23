@@ -118,16 +118,29 @@
         </div>
       </div>
 
-      
+
       <div class="card-job">
         <div class="presta-img">
           <img src="<?= $absoluteUrl ?>assets/images/responsive.png" alt="image d'ordinateur">
         </div>
         <div class="presta-card-job">
-        <h4>RESPONSIVE DESIGN</h4>
+          <h4>RESPONSIVE DESIGN</h4>
           <div class="job-text-list">
             <p>
               Compatible tous supports, tablette & application mobile.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-job">
+        <div class="presta-img">
+          <img src="<?= $absoluteUrl ?>assets/images/human.png" alt="image d'un groupe de personnes dans une main">
+        </div>
+        <div class="presta-card-job">
+          <h4>ACCOMPAGNEMENT</h4>
+          <div class="job-text-list">
+            <p>
+              Je vous suis et vous conseille tout au long de la création de votre site internet.
             </p>
           </div>
         </div>
@@ -149,6 +162,11 @@
         L’offre l'<span class="envol-bold"><strong>ENVOL</strong></span> consiste à associer nos compétences afin de répondre à vos besoins sur la création d’un site Web sur-mesure.
       </p>
     </div>
+
+    <div class="together-img">
+      <img src="<?= $absoluteUrl ?>assets/images/together.png" alt="image de mains">
+    </div>
+
   </div>
 
 </section>

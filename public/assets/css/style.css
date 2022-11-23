@@ -1146,6 +1146,10 @@ textarea[type="text"] {
   width: 100%;
 }
 
+.together-img {
+  padding-top: 4rem;
+}
+
 /* CV */
 
 .dl-cv {
