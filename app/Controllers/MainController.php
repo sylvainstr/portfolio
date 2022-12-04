@@ -36,19 +36,15 @@ class MainController extends CoreController
       $company = $_POST['company'];
       $message = $_POST['message'];
 
-      $pattern = "/[a-zA-Z]/";
+      // $pattern = "/[a-zA-Z]/";
 
-      if (preg_match($pattern, $name)) {
-        echo "Votre nom est valide";
-      }
+      // if (preg_match($pattern, $name)) {
+      //   echo "Votre nom est valide";
+      // }
 
-      if (preg_match($pattern, $company)) {
-        echo "Votre nom est valide";
-      }
-
-      if (preg_match($pattern, $message)) {
-        echo "Votre message est valide";
-      }
+      // if (preg_match($pattern, $message)) {
+      //   echo "Votre message est valide";
+      // }
 
     }
 
