@@ -31,21 +31,18 @@ class MainController extends CoreController
      
   public function contact ()
   {
+    $pattern = "/[a-zA-Z]/";
+
     if (isset($_POST['name']) && ($_POST['message'])) {
-      $name = $_POST['name'];
-      $company = $_POST['company'];
-      $message = $_POST['message'];
-
-      // $pattern = "/[a-zA-Z]/";
-
-      // if (preg_match($pattern, $name)) {
-      //   echo "Votre nom est valide";
-      // }
-
-      // if (preg_match($pattern, $message)) {
-      //   echo "Votre message est valide";
-      // }
-
+      if (preg_match($pattern, $_POST['name'])
+      && preg_match($pattern, $_POST['message']))
+      {
+        
+        // je récupére les données et je désactive les balises
+        $name = htmlentities($_POST['name']);
+        $company = htmlentities($_POST['company']);
+        $message = htmlentities($_POST['message']);
+      }
     }
 
 
