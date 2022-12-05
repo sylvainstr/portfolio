@@ -1061,6 +1061,27 @@ textarea[type="text"] {
   padding-right: 2rem;
 }
 
+.envol-link {
+  display: flex;
+  padding-top: 4rem;
+  align-items: center;
+  gap: 1rem;
+}
+.envol-link a {
+  text-decoration: none;
+  color: #332800;
+  font-weight: 600;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 155%;
+}
+
+span.envol-bold.envol-item:hover {
+  color: #FFCE1F;
+  font-weight: 700;
+}
+
 .line-xxl {
   border-bottom: #FFCE1F solid 4px;
   width: 450px;
@@ -2816,6 +2837,7 @@ footer {
   }
 
   input[type="text"],
+  input[type="email"],
   textarea[type="text"] {
     font-size: 16px;
   }

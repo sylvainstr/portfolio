@@ -163,8 +163,19 @@
       </p>
     </div>
 
+    <div class="envol-link">
+      <a href="<?= $absoluteUrl ?>offre-envol">
+        <img src="<?= $absoluteUrl ?>assets/images/see.png" alt="image d'un oeil">
+      </a>
+      <a href="<?= $absoluteUrl ?>offre-envol">        
+        Voir plus de détails sur l'offre l'<span class="envol-bold envol-item"><strong>ENVOL</strong></span> !!
+      </a>
+    </div>
+
     <div class="together-img">
-      <img src="<?= $absoluteUrl ?>assets/images/together.png" alt="image de mains">
+      <a href="<?= $absoluteUrl ?>offre-envol">
+        <img src="<?= $absoluteUrl ?>assets/images/together.png" alt="image de mains">
+      </a>
     </div>
 
   </div>
