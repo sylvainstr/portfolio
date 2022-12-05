@@ -73,17 +73,17 @@
         <form action="/#contact" method="post">
           <div class="contact-group">
             <div class="contact-item-name">
-              <label for="name">Nom et prénom</label>
+              <label for="name">Nom et prénom *</label>
               <input type="text" name="name" id="name" required="required" placeholder="Exemple: Marc Dupont">  
             </div>
-            <div class="contact-item-company">
-              <label for="company">Nom de l'entreprise</label>
-              <input type="text" name="company" id="company" placeholder="Exemple : Google Company">  
+            <div class="contact-item-email">
+              <label for="email">Votre Email * </label>
+              <input type="email" name="email" id="email" required="required" placeholder="Exemple : marc.dupont@monmail.com">
             </div>
           </div>
 
           <div class="contact-item-mess">
-            <label for="message">Votre message</label>
+            <label for="message">Votre message *</label>
             <textarea type="text" name="message" id="message" required="required" placeholder="Tapez votre message..."></textarea>            
           </div>
 

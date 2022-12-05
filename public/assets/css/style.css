@@ -944,7 +944,7 @@ form {
   padding-inline: 5px;
 }
 
-.contact-form .contact-item-company label {
+.contact-form .contact-item-email label {
   position: absolute;
   top: 5.3rem;
   left: 31.2rem;
@@ -973,7 +973,7 @@ form {
 }
 
 .contact-item-name input,
-.contact-item-company input {
+.contact-item-email input {
   width: 444px;
   height: 68px;
 }
@@ -987,7 +987,8 @@ form {
   height: 160px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
@@ -1515,7 +1516,7 @@ footer {
     margin: auto;
   }
 
-  .contact-item-name input, .contact-item-company input {
+  .contact-item-name input, .contact-item-email input {
     width: 370px;
     height: 68px; 
   }
@@ -1772,7 +1773,7 @@ footer {
     margin-left: 2.5rem;
   }
 
-  .contact-item-name input, .contact-item-company input {
+  .contact-item-name input, .contact-item-email input {
     width: 420px;
   }
 
@@ -1781,7 +1782,7 @@ footer {
     flex-direction: column;
   }
 
-  .contact-item-company {
+  .contact-item-email {
     padding-top: 3rem;
   }
 
@@ -1789,7 +1790,7 @@ footer {
     width: 600px;
   }
 
-  .contact-form .contact-item-company label {
+  .contact-form .contact-item-email label {
     top: 12.5rem;
     left: 1.3rem;
   }
@@ -1967,7 +1968,7 @@ footer {
     margin-bottom: 3rem;
   }
 
-  .contact-form .contact-item-company label {
+  .contact-form .contact-item-email label {
     top: 15.5rem;
     left: 1.2rem;
   }
@@ -1978,7 +1979,7 @@ footer {
   }
 
   .contact-item-name input,
-  .contact-item-company input,
+  .contact-item-email input,
   .contact-item-mess textarea {
     width: 452px;
   }
@@ -2101,7 +2102,7 @@ footer {
   }
 
   .contact-item-name input,
-  .contact-item-company input,
+  .contact-item-email input,
   .contact-item-mess textarea {
     width: 480px;
   }
@@ -2111,7 +2112,7 @@ footer {
     padding: 0;
   }
 
-  .contact-form .contact-item-company label {
+  .contact-form .contact-item-email label {
     top: 12.6rem;
   }
 
@@ -2414,18 +2415,18 @@ footer {
   }
 
   .contact-item-name input,
-  .contact-item-company input,
+  .contact-item-email input,
   .contact-item-mess textarea {
     width: 368px;
   }
 
   .contact-form .contact-item-name label,
-  .contact-form .contact-item-company label,
+  .contact-form .contact-item-email label,
   .contact-form .contact-item-mess label {
     left: 1.8rem;
   }
 
-  .contact-form .contact-item-company label {
+  .contact-form .contact-item-email label {
     top: 12.6rem;
   }
 
@@ -2809,7 +2810,7 @@ footer {
   }
 
   .contact-item-name input,
-  .contact-item-company input,
+  .contact-item-email input,
   .contact-item-mess textarea {
     width: 340px;
   }
@@ -2973,7 +2974,7 @@ footer {
   }
 
   .contact-item-name input,
-  .contact-item-company input,
+  .contact-item-email input,
   .contact-item-mess textarea {
     width: 280px;
   }
@@ -3125,12 +3126,12 @@ footer {
   }
 
   .contact-item-name input,
-  .contact-item-company input,
+  .contact-item-email input,
   .contact-item-mess textarea {
     width: 100%;
   }
 
-  .contact-item-company {
+  .contact-item-email {
     padding-top: 0;
   }
 
@@ -3138,7 +3139,7 @@ footer {
     padding-bottom: 3rem;
   }
 
-  .contact-form .contact-item-company label {
+  .contact-form .contact-item-email label {
     top: 12.6rem;
   }
 

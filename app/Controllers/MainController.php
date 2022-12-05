@@ -31,10 +31,10 @@ class MainController extends CoreController
 
   public function contact()
   {
-    if (!empty(trim($_POST['name'])) && !empty(trim($_POST['message']))) {
+    if (!empty(trim($_POST['name'])) && !empty(trim($_POST['email'])) && !empty(trim($_POST['message']))) {
       // je récupére les données et je désactive les balises
       $name = htmlentities($_POST['name']);
-      $company = htmlentities($_POST['company']);
+      $email = htmlentities($_POST['email']);
       $message = htmlentities($_POST['message']);
     } else {
       die("Ce champ doit contenir au moins un caractère");
@@ -65,7 +65,7 @@ class MainController extends CoreController
 
       //Content
       $mail->isHTML(true);                                  //Set email format to HTML
-      $mail->Subject = $company;
+      $mail->Subject = $email;
       $mail->Body    = "$message <br> $name";
       $mail->AltBody = $message;
 
