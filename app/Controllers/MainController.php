@@ -31,19 +31,13 @@ class MainController extends CoreController
 
   public function contact()
   {
-    $pattern = "/[a-zA-Z]/";
-
-    if (isset($_POST['name']) && ($_POST['message'])) {
-      if (
-        !preg_match($pattern, $_POST['name'])
-        && !preg_match($pattern, $_POST['message'])
-      ) {
-        die("Ce champ doit contenir au moins un caractère");
-      }
+    if (!empty(trim($_POST['name'])) && !empty(trim($_POST['message']))) {
       // je récupére les données et je désactive les balises
       $name = htmlentities($_POST['name']);
       $company = htmlentities($_POST['company']);
       $message = htmlentities($_POST['message']);
+    } else {
+      die("Ce champ doit contenir au moins un caractère");
     }
 
 
