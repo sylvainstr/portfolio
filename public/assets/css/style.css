@@ -190,9 +190,14 @@ section.cgv h1 {
   color: #332800;
 }
 
-.line {
+.line,
+.line-xl {
   border-bottom: #FFCE1F solid 4px;
   width: 203px;
+}
+
+.line-xl {
+  width: 280px;
 }
 
 .skill-card-first,
@@ -272,20 +277,67 @@ section.cgv h1 {
 
 /* Expérience professionnelle */
 
-section.experience {
+section.experience,
+section.envol {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 8rem;
 }
 
-section.experience h1 {
+section.experience h1,
+section.envol h1 {
   font-family: 'Biryani';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 49px;
   color: #332800;
+}
+
+.envol-what,
+.envol-who,
+.envol-how,
+.envol-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.step-envol {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding-inline: 5rem;
+  gap: 4rem;
+  padding-top: 4rem;
+}
+
+.step-envol-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 290px;
+}
+
+.step-envol-card h2 {
+  padding-top: 1rem;
+}
+
+.step-envol-card p {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.envol-contact p {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Nunito';
+  font-style: normal;
+  line-height: 155%;
+  color: #5F5C4E;
+  padding-bottom: 2rem;
 }
 
 .title-experience {
@@ -531,6 +583,11 @@ h1.projects-title {
 .line-sm {
   border-bottom: #FFCE1F solid 4px;
   width: 135px;
+}
+
+.line-large {
+  border-bottom: #FFCE1F solid 4px;
+  width: 215px;
 }
 
 .projects-group {
@@ -1088,6 +1145,11 @@ span.envol-bold.envol-item:hover {
   margin: auto;
 }
 
+.line-xlarge {
+  border-bottom: #FFCE1F solid 4px;
+  width: 330px;
+}
+
 
 .job h3 {
   font-family: 'Biryani';
@@ -1103,13 +1165,24 @@ span.envol-bold.envol-item:hover {
 .job-text p,
 .job-text-list p,
 .job-text-envol p,
-.presta-job-text p {
+.presta-job-text p,
+.envol-what p,
+.envol-how p {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 155%;
   color: #5F5C4E;
+}
+
+.envol-text {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.envol-text p {
+  max-width: 950px;
 }
 
 .job-text-envol p {
@@ -1555,6 +1628,15 @@ footer {
   .my-projects-img-barhome h3 {
     width: 17%;
     transform: translate(457px, 38px);
+  }
+
+  .step-envol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step-envol-card {
+    max-width: 800px;
   }
 
 }
@@ -2053,7 +2135,8 @@ footer {
     padding-inline: 50px;
   }
 
-  .job-text-envol p {
+  .job-text-envol p,
+  .envol-text p {
     max-width: 750px;
   }
 
@@ -2209,7 +2292,8 @@ footer {
     font-size: 20px;
   }
 
-  .job-text-envol p {
+  .job-text-envol p,
+  .envol-text p {
     max-width: 550px;
   }
 
@@ -2455,6 +2539,12 @@ footer {
     top: 19.8rem;
   }
 
+  input[type="text"],
+  input[type="email"],
+  textarea[type="text"] {
+    font-size: 17px;
+  }
+
   .contact-button {
     padding-right: 0;
   }
@@ -2491,7 +2581,7 @@ footer {
     font-size: 22px;
   }
 
-  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p {
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p {
     font-size: 18px;
   }
 
@@ -2563,7 +2653,7 @@ footer {
     font-size: 22px;
   }
 
-  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p {
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p {
     font-size: 16px;
   }
 
@@ -2626,6 +2716,10 @@ footer {
     width: 280px;
   }
 
+  .step-envol {
+    padding-inline: 0;
+  }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -2679,7 +2773,8 @@ footer {
     font-size: 25px;
   }
 
-  section.experience h1 {
+  section.experience h1,
+  section.envol h1 {
     font-size: 25px;
   }
 
@@ -2877,7 +2972,7 @@ footer {
     padding-left: 1rem;
   }
 
-  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p {
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p {
     font-size: 16px;
   }
 
@@ -2919,7 +3014,8 @@ footer {
   .formation h1,
   h1.projects-title,
   .presentation .presentation-title,
-  .contact .contact-title {
+  .contact .contact-title,
+  section.envol h1 {
     font-size: 20px;
   }
 
@@ -3027,7 +3123,20 @@ footer {
   .line-xxl {
     width: 200px;
   }
-  
+
+  input[type="text"],
+  input[type="email"],
+  textarea[type="text"] {
+    font-size: 14px;
+  }
+
+  .line-xlarge {
+    width: 290px;
+  }
+
+  section.envol h1 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -3061,7 +3170,8 @@ footer {
   .formation h1,
   h1.projects-title,
   .presentation .presentation-title,
-  .contact .contact-title {
+  .contact .contact-title,
+  section.envol h1 {
     font-size: 18px;
   }
 

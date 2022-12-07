@@ -123,7 +123,7 @@
 
   <div class="cgv-text">
     <p>
-      Une fois le devis signé, un acompte de 30% du prix global des prestations à fournir doit être payé (une facture d’acompte sera fournie au Client). Les travaux débuteront uniquement lorsque tous les documents (devis et CGV signés) et les éléments graphiques et textuels nécessaires à la bonne réalisation du projet seront à la disposition du Développeur web, ainsi que lorsque l’acompte de 30% sera payé.
+      Une fois le devis signé, un acompte de 50% du prix global des prestations à fournir doit être payé (une facture d’acompte sera fournie au Client). Les travaux débuteront uniquement lorsque tous les documents (devis et CGV signés) et les éléments graphiques et textuels nécessaires à la bonne réalisation du projet seront à la disposition du Développeur web, ainsi que lorsque l’acompte de 50% sera payé.
     </p>
   </div>
 
