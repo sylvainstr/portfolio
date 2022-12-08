@@ -340,6 +340,45 @@ section.envol h1 {
   padding-bottom: 2rem;
 }
 
+.envol-who-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-inline: 2rem;
+  gap: 4rem;
+  padding-block: 6rem;
+}
+
+.who-card-img img {
+  border-radius: 10% 25%;
+  width: 100%;
+}
+
+.who-card-img-right img {
+  border-radius: 25% 10%;
+  width: 100%;
+}
+
+.card-quality-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 2rem;
+}
+
+.card-quality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.envol-who .card-quality p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .title-experience {
   padding-bottom: 5rem;
 }
@@ -1167,6 +1206,7 @@ span.envol-bold.envol-item:hover {
 .job-text-envol p,
 .presta-job-text p,
 .envol-what p,
+.envol-who p,
 .envol-how p {
   font-family: 'Nunito';
   font-style: normal;
@@ -1174,6 +1214,22 @@ span.envol-bold.envol-item:hover {
   font-size: 20px;
   line-height: 155%;
   color: #5F5C4E;
+}
+
+.envol-who p {
+  padding-block: 0.5rem;
+}
+
+.social {
+  padding-top: 1rem;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social .facebook{
+  padding-right: 1rem;
 }
 
 .envol-text {
@@ -1637,6 +1693,24 @@ footer {
 
   .step-envol-card {
     max-width: 800px;
+  }
+
+  .envol-who-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .who-card-img img,
+  .who-card-img-right img {
+    width: 400px;
+  }
+
+  .social img {
+    width: 35px;
+  }
+
+  .who-card-img-right {
+    order: -1;
   }
 
 }
@@ -2581,7 +2655,7 @@ footer {
     font-size: 22px;
   }
 
-  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p {
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p, .envol-who p {
     font-size: 18px;
   }
 
@@ -2653,8 +2727,12 @@ footer {
     font-size: 22px;
   }
 
-  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p {
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p, .envol-who p {
     font-size: 16px;
+  }
+
+  .card-quality-group {
+    flex-wrap: wrap;
   }
 
 }
@@ -2718,6 +2796,11 @@ footer {
 
   .step-envol {
     padding-inline: 0;
+  }
+
+  .who-card-img img,
+  .who-card-img-right img {
+    width: 100%;
   }
 
 }
@@ -2972,7 +3055,7 @@ footer {
     padding-left: 1rem;
   }
 
-  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p {
+  .job-text p, .job-text-list p, .job-text-envol p, .presta-job-text p, .envol-text p, .envol-how p, .envol-who p {
     font-size: 16px;
   }
 
