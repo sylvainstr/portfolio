@@ -284,6 +284,10 @@ section.envol {
   align-items: center;
 }
 
+section.experience {
+  padding-top: 8rem;
+}
+
 section.experience h1,
 section.envol h1 {
   font-family: 'Biryani';
