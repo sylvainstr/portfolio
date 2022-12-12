@@ -355,12 +355,12 @@ section.envol h1 {
 
 .who-card-img img {
   border-radius: 10% 25%;
-  width: 100%;
+  width: 400px
 }
 
 .who-card-img-right img {
   border-radius: 25% 10%;
-  width: 100%;
+  width: 400px
 }
 
 .card-quality-group {
@@ -1702,11 +1702,6 @@ footer {
   .envol-who-card {
     display: flex;
     flex-direction: column;
-  }
-
-  .who-card-img img,
-  .who-card-img-right img {
-    width: 400px;
   }
 
   .social img {
