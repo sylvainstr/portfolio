@@ -44,6 +44,19 @@
   <title>Portfolio</title>
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1RGF3W1X3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-H1RGF3W1X3');
+</script>
+
 <body>
   <header>
     <div class="wrapper">
@@ -81,5 +94,5 @@
       </nav>
     </div>
   </header>
-  
+
   <div class="wrapper">
