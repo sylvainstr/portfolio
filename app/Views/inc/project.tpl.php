@@ -6,7 +6,7 @@
     <div class="my-projects">
       <div class="my-projects-img-security">
         <img class="security-response" src="<?= $absoluteUrl ?>assets/images/security-concept.png" alt="image du site security respone">
-        <h3><a href="https://www.security-response.fr/" target="_blank">Voir le site</a></h3>
+        <!-- <h3><a href="" target="_blank">Voir le site</a></h3> -->
       </div>
 
       <div class="my-projects-text-security scroller-right">
@@ -22,17 +22,20 @@
           <li>L’<span class="bold">ORM Doctrine</span> a été utilisé pour la gestion de base de données.</li>
           <li>La partie Front-end a été réalisée en <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">Bootstrap</span>.</li>
           <li>Quelques extraits de l'application et du cachier des charges, <a href="<?= $absoluteUrl ?>assets/files/annexe.pdf" target="_blank"><span class="bold">Télécharger ICI !!</span></a></li>
+          <li>
+            <a href="https://github.com/sylvainstr/security-response" target="_blank" class="bold">Lien du projet Github</a>
+          </li>
         </ul>
       </div>
     </div>
 
     <div class="my-projects">
-      
+
       <div class="my-projects-text-ocoeur scroller-left">
         <div class="text-ltr">
           <h1>Ô Coeur 2 Soi</h1>
           <ul>
-            <li>Projet réalisé dans le cadre de <span class="bold">Freelance</span> en totale autonomie.</li>
+            <li>Projet réalisé dans le cadre de <span class="bold">Freelance</span> en totale autonomie (Mars 2022).</li>
             <li>Site de réflexologie plantaire et massages divers.</li>
             <li>Intégration des maquettes via <span class="bold">Figma</span>.</li>
             <li>La partie Back-end a été réalisée avec le framework <span class="bold">PHP Symfony</span> et le modèle <span class="bold">MVC</span>.</li>
@@ -67,7 +70,32 @@
           <li>La partie Front-end a été réalisée en <span class="bold">Twig</span> / <span class="bold">Javascript</span> / <span class="bold">CSS</span>.</li>
           <li>L'application est <span class="bold">Responsive</span> (Desktop / Tablet / Mobile).</li>
           <li>Déploiement de l'application sur <span class="bold">o2switch</span>.</li>
+          <li>
+            <a href="https://github.com/sylvainstr/barhome" target="_blank" class="bold">Lien du projet Github</a>
+          </li>
         </ul>
+      </div>
+    </div>
+
+    <div class="my-projects">
+
+      <div class="my-projects-text-maliste scroller-left">
+        <div class="text-ltr">
+          <h1>Ma liste cadeau</h1>
+          <ul>
+            <li>Projet <span class="bold">Personnel</span> réalisé en totale autonomie (Novembre 2022).</li>
+            <li>Site de liste de cadeaux, profil avec liste de cadeaux, liste d'amis, possibilité de créer un événement et d'y inviter ses amis.</li>
+            <li>Le site a été réalisé en <span class="bold">PHP from scratch</span> et sous architecture <span class="bold">MVC</span>.</li>
+            <li>Création de mon propre <span class="bold">Framework/Router/Flashmessage</span></li>
+            <li>Le projet est en cours, le backend est bien avancée et consultable sur mon lien github ci-dessous.</li>
+            <li>
+              <a href="https://github.com/sylvainstr/ma-liste-cadeau" target="_blank" class="bold">Lien du projet Github</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="my-projects-img-maliste">
+        <img class="maliste" src="<?= $absoluteUrl ?>assets/images/cadeau.png" alt="image du site ma liste cadeau">
       </div>
     </div>
 

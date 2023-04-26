@@ -646,9 +646,11 @@ padding-top: 5rem;
 
 .my-projects-img-security,
 .my-projects-img-ocoeur,
+.my-projects-img-maliste,
 .my-projects-img-barhome,
 .my-projects-text-security,
 .my-projects-text-ocoeur,
+.my-projects-text-maliste,
 .my-projects-text-barhome {
   width: 650px;
   height: 450px;
@@ -658,12 +660,14 @@ padding-top: 5rem;
 
 .my-projects-text-security,
 .my-projects-text-ocoeur,
+.my-projects-text-maliste,
 .my-projects-text-barhome {
   background: #FFFFFF;
   border: 0.5px solid #D1D0D0;
 }
 
-.my-projects-text-ocoeur .text-ltr {
+.my-projects-text-ocoeur .text-ltr,
+.my-projects-text-maliste .text-ltr {
   direction: ltr;
 }
 
@@ -701,6 +705,10 @@ padding-top: 5rem;
 
 .my-projects-img-barhome {
   background-color: #907A98;
+}
+
+.my-projects-img-maliste {
+  background-color: lightsalmon;
 }
 
 .security-response
@@ -751,11 +759,17 @@ padding-top: 5rem;
 
 .ocoeur {
   width: 47%;
-  transform: translate(165px, 18px);
+  transform: translate(170px, 18px);
+}
+
+.maliste {
+  width: 50%;
+  transform: translate(165px, 50px);
 }
 
 .my-projects-text-security h1,
 .my-projects-text-ocoeur h1,
+.my-projects-text-maliste h1,
 .my-projects-text-barhome h1 {
   font-family: 'Biryani';
   font-style: normal;
@@ -770,12 +784,14 @@ padding-top: 5rem;
 
 .my-projects-text-security ul,
 .my-projects-text-ocoeur ul,
+.my-projects-text-maliste ul,
 .my-projects-text-barhome ul {
   padding-bottom: 2rem;
 }
 
 .my-projects-text-security li,
 .my-projects-text-ocoeur li,
+.my-projects-text-maliste li,
 .my-projects-text-barhome li {
   font-family: 'Nunito';
   font-style: normal;
@@ -788,12 +804,16 @@ padding-top: 5rem;
   padding-block: 0.5rem;
 }
 
-.my-projects-text-security li a {
+.my-projects-text-security li a,
+.my-projects-text-barhome li a,
+.my-projects-text-maliste li a {
   color: #332800;
   text-decoration: none;
 }
 
-.my-projects-text-security li a:hover {
+.my-projects-text-security li a:hover,
+.my-projects-text-barhome li a:hover,
+.my-projects-text-maliste li a:hover {
   color: #FFCE1F;
 }
 
@@ -1632,9 +1652,11 @@ footer {
 
   .my-projects-img-security,
   .my-projects-img-ocoeur,
+  .my-projects-img-maliste,
   .my-projects-img-barhome,
   .my-projects-text-security,
   .my-projects-text-ocoeur,
+  .my-projects-text-maliste,
   .my-projects-text-barhome {
     width: 580px;
   }
@@ -1884,9 +1906,11 @@ footer {
 
   .my-projects-img-security,
   .my-projects-img-ocoeur,
+  .my-projects-img-maliste,
   .my-projects-img-barhome,
   .my-projects-text-security,
   .my-projects-text-ocoeur,
+  .my-projects-text-maliste,
   .my-projects-text-barhome {
     width: 480px;
   }
@@ -1900,6 +1924,11 @@ footer {
   .ocoeur {
     width: 50%;
     transform: translate(125px, 18px);
+  }
+
+  .maliste {
+    width: 50%;
+    transform: translate(140px, 90px);
   }
 
   .my-projects-img-ocoeur h3 {
@@ -1917,6 +1946,7 @@ footer {
   .my-projects-img-barhome,
   .my-projects-text-security,
   .my-projects-text-ocoeur,
+  .my-projects-text-maliste,
   .my-projects-text-barhome {
     margin-right: 30px;
   }
@@ -2111,11 +2141,14 @@ footer {
   }
 
   .my-projects-img-security,
-  .my-projects-img-barhome {
+  .my-projects-img-barhome,
+  .my-projects-img-maliste {
     margin-bottom: 1rem;
   }
 
-  .my-projects-text-ocoeur {
+  .my-projects-text-ocoeur,
+  .my-projects-text-maliste
+  {
     order: 1;
   }
 
@@ -2683,9 +2716,11 @@ footer {
 
   .my-projects-img-security,
   .my-projects-img-ocoeur,
+  .my-projects-img-maliste,
   .my-projects-img-barhome,
   .my-projects-text-security,
   .my-projects-text-ocoeur,
+  .my-projects-text-maliste,
   .my-projects-text-barhome {
     width: 350px;
     margin-right: 0;
@@ -2700,6 +2735,11 @@ footer {
   .ocoeur {
     width: 50%;
     transform: translate(93px, 40px);
+  }
+
+  .maliste {
+    width: 50%;
+    transform: translate(100px, 125px);
   }
 
   .my-projects-img-ocoeur h3 {
@@ -2899,9 +2939,11 @@ footer {
 
   .my-projects-img-security,
   .my-projects-img-ocoeur,
+  .my-projects-img-maliste,
   .my-projects-img-barhome,
   .my-projects-text-security,
   .my-projects-text-ocoeur,
+  .my-projects-text-maliste,
   .my-projects-text-barhome {
     width: 100%;
     height: 300px;
@@ -2923,6 +2965,11 @@ footer {
   .ocoeur {
     width: 47%;
     transform: translate(95px, 9px);
+  }
+
+  .maliste {
+    width: 50%;
+    transform: translate(100px, 70px);
   }
 
   .my-projects-img-ocoeur h3 {
@@ -3122,9 +3169,11 @@ footer {
 
   .my-projects-img-security,
   .my-projects-img-ocoeur,
+  .my-projects-img-maliste,
   .my-projects-img-barhome,
   .my-projects-text-security,
   .my-projects-text-ocoeur,
+  .my-projects-text-maliste,
   .my-projects-text-barhome {
     width: 100%;
   }
@@ -3280,9 +3329,11 @@ footer {
 
   .my-projects-img-security,
   .my-projects-img-ocoeur,
+  .my-projects-img-maliste,
   .my-projects-img-barhome,
   .my-projects-text-security,
   .my-projects-text-ocoeur,
+  .my-projects-text-maliste,
   .my-projects-text-barhome {
     width: 300px;
     margin-left: 48px;
