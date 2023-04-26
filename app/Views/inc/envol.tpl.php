@@ -183,7 +183,7 @@
             Je vous propose un accompagnement tout le long du projet, je suis réactif et je reste à l’écoute des mes clients.
           </p>
           <p>
-            « Les clients ne peuvent pas toujours vous dire ce qu'ils veulent, mais ils sont toujours capables d'exprimer ce qui ne va pas. »
+            « Les clients ne peuvent pas toujours vous dire ce qu'ils veulent, mais ils sont toujours capables d'exprimer ce qui ne va pas. » - Carly Fiona
           </p>
         </div>
 
