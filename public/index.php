@@ -16,10 +16,10 @@ $router->map('POST', '/', [
   'method' => 'contact',
 ], 'contact');
 
-$router->map('GET', '/offre-envol', [
-  'controller' => 'MainController',
-  'method' => 'envol',
-], 'main-envol');
+// $router->map('GET', '/offre-envol', [
+//   'controller' => 'MainController',
+//   'method' => 'envol',
+// ], 'main-envol');
 
 $router->map('GET', '/cv', [
   'controller' => 'MainController',

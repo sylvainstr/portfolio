@@ -277,6 +277,11 @@ section.cgv h1 {
 
 /* Expérience professionnelle */
 
+/* Envol */
+.presta-contact {
+  margin-top: 5rem;
+}
+
 section.experience,
 section.envol {
   display: flex;

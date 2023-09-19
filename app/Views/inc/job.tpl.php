@@ -148,7 +148,7 @@
     </div>
   </div>
 
-  <div class="job-text-envol-group">
+  <!-- <div class="job-text-envol-group">
     <h3>L'ENVOL</h3>
     <div class="line-xs"></div>
     <div class="job-text-envol">
@@ -178,7 +178,7 @@
       </a>
     </div>
 
-  </div>
+  </div> -->
 
 </section>
 
